@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"b97762626baa45f0","x":-114,"y":-229,"width":400,"height":116,"type":"file","file":"200 文献笔记/线下课程/UESTC/格院大四上课程/数字通信课程/《通信原理（周炯槃）》/第一章 绪论/通信技术.md"},
+		{"id":"ff2b47dc79722aab","x":416,"y":-580,"width":400,"height":409,"type":"file","file":"200 文献笔记/线下课程/UESTC/格院大四上课程/数字通信课程/《通信原理（周炯槃）》/第一章 绪论/通信系统.md"},
+		{"id":"2c93b99faa314d52","x":416,"y":-113,"width":400,"height":436,"type":"file","file":"200 文献笔记/线下课程/UESTC/格院大四上课程/数字通信课程/《通信原理（周炯槃）》/第一章 绪论/通信网.md"},
+		{"id":"449444712be610c2","x":965,"y":-556,"width":400,"height":361,"type":"file","file":"200 文献笔记/线下课程/UESTC/格院大四上课程/数字通信课程/《通信原理（周炯槃）》/第一章 绪论/信道.md"}
+	],
+	"edges":[
+		{"id":"e4a332071120e35c","fromNode":"b97762626baa45f0","fromSide":"right","toNode":"ff2b47dc79722aab","toSide":"left"},
+		{"id":"8943a16c7263498e","fromNode":"b97762626baa45f0","fromSide":"right","toNode":"2c93b99faa314d52","toSide":"left"},
+		{"id":"885094d1927cc6f9","fromNode":"ff2b47dc79722aab","fromSide":"right","toNode":"449444712be610c2","toSide":"left"}
+	]
+}

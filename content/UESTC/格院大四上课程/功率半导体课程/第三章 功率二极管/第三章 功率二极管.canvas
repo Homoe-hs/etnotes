@@ -1,0 +1,27 @@
+{
+	"nodes":[
+		{"id":"f0306f4f8c2e1f1a","type":"text","text":"$$\nt_{rr}=\\tau_{HL}\\cdot \\frac{2J_{F}}{J_{PR}}\n$$\n$t_{rr}$ 为反向恢复时间； $\\tau_{HL}$ 为寿命；$J_{F}$ 为正向电压；$J_{PR}$ 为峰值电压\n","x":-234,"y":-144,"width":427,"height":156},
+		{"id":"5f70ea3596e533f6","type":"text","text":"## 3.3 肖特基壁垒二极管","x":-659,"y":237,"width":235,"height":73},
+		{"id":"2a9568078d56af46","type":"file","file":"200 文献笔记/线下课程/格院大三上课程/微纳工艺课程/肖特基势垒.md","x":-234,"y":110,"width":427,"height":198},
+		{"id":"2a3f5fdf7e8b523c","type":"file","file":"200 文献笔记/线下课程/格院大三上课程/微纳工艺课程/欧姆接触.md","x":417,"y":-90,"width":400,"height":118},
+		{"id":"becfda05724dd06f","type":"text","text":"如何计算耗尽区宽度","x":492,"y":255,"width":250,"height":60,"color":"6"},
+		{"id":"b1ff1e3eeee351e6","type":"text","text":"如何计算 Ec 和费米能级之间的间距","x":492,"y":170,"width":250,"height":79,"color":"6"},
+		{"id":"255667c15513eb37","type":"file","file":"200 文献笔记/线下课程/UESTC/格院大二课程/半导体物理/ch9 金属半导体和半导体异质结/20220511 ch9.md","x":-238,"y":376,"width":431,"height":379},
+		{"id":"fb60232eadad7ae4","type":"text","text":"整个器件的压降=载流子流过整个路径的电压值。\n\n$$\nV_{F}=V_{FB}+J_{F}(R_{drift}+R_{nn^{+}}+R_{sub}+R_{contact})=V_{FB}+J_{F}R_{S}\n$$","x":-238,"y":816,"width":490,"height":107},
+		{"id":"f4527a7d3c9fe632","type":"file","file":"400 笔记归档/附件/IMG_20230919_092810.jpg","x":212,"y":529,"width":804,"height":226},
+		{"id":"225fb17d49e2d227","type":"text","text":"这里的电阻值就是导致偏压非线性的原因","x":342,"y":840,"width":250,"height":60},
+		{"id":"95a0dd91cead8d4f","type":"text","text":"肖特基二极管和 PN 结相比，PN 结的压降更大","x":-243,"y":988,"width":250,"height":60},
+		{"id":"753bca63652d113d","type":"file","file":"400 笔记归档/附件/IMG_20230919_093407.jpg","x":-238,"y":1187,"width":399,"height":208},
+		{"id":"f9c67123896bb3c0","type":"file","file":"400 笔记归档/附件/IMG_20230919_093505.jpg","x":320,"y":1170,"width":400,"height":243},
+		{"id":"66f5f149c2109657","type":"text","text":"## JBS Diodes","x":-585,"y":1681,"width":250,"height":60},
+		{"id":"f7e5505bbe18e277","type":"text","text":"SBD 在不同的电压和电流下，会有不同的机制。在小电流的时候，主要是 SBD 的多子在起作用；大电流的时候主要是肖特基接触在起作用。","x":-238,"y":1621,"width":400,"height":116},
+		{"id":"8b0b029134800913","type":"text","text":"## MPS rectifier","x":-585,"y":1827,"width":250,"height":60},
+		{"id":"86f80147007b46bc","type":"text","text":"MPS 会施加相较于 JBS 更大的电压来使得两种机制同时运行。","x":-238,"y":1827,"width":400,"height":60},
+		{"id":"141116ed39d28421","type":"text","text":"## Synchronize Rectifier","x":-585,"y":2026,"width":250,"height":82}
+	],
+	"edges":[
+		{"id":"1d44e0c3209c0827","fromNode":"2a9568078d56af46","fromSide":"right","toNode":"2a3f5fdf7e8b523c","toSide":"left","fromEnd":"arrow","label":"区别"},
+		{"id":"4990a764afe278f7","fromNode":"fb60232eadad7ae4","fromSide":"right","toNode":"225fb17d49e2d227","toSide":"left"},
+		{"id":"9a69a7da7938f628","fromNode":"f9c67123896bb3c0","fromSide":"left","toNode":"753bca63652d113d","toSide":"right","label":"推导"}
+	]
+}

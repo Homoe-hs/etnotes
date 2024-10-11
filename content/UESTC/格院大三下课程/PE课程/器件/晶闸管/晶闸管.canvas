@@ -1,0 +1,29 @@
+{
+	"nodes":[
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/器件/晶闸管/晶闸管的结构.md","id":"a8c45a3675a68c4f","x":538,"y":-410,"width":400,"height":369},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/器件/晶闸管/晶闸管的导通方式.md","id":"362d1b35fa3361e0","x":538,"y":47,"width":400,"height":382},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/器件/晶闸管/晶闸管的静态特性.md","id":"eca4037e8d4e9543","x":538,"y":522,"width":400,"height":135},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/器件/晶闸管/晶闸管的动态特性.md","id":"cfedcbeb397de5c1","x":538,"y":1545,"width":400,"height":195},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/器件/晶闸管/晶闸管.md","id":"ee7f6f7c2ef512da","x":-102,"y":719,"width":414,"height":258},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/器件/晶闸管/晶闸管导通动态特性.md","id":"88fc2385277c8dce","x":1033,"y":720,"width":404,"height":923},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/器件/晶闸管/晶闸管关断动态特性.md","id":"6b2bf4bbade91857","x":1037,"y":1707,"width":400,"height":791},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/器件/晶闸管/晶闸管的静态输出特性.md","id":"e81db0de6f98cc9e","x":1033,"y":218,"width":400,"height":422},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/器件/晶闸管/晶闸管的正向导通状态.md","id":"fa6d06d0cc89fe95","x":1663,"y":134,"width":400,"height":611},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/器件/晶闸管/晶闸管的反向阻断状态.md","id":"7bba55b6d8d78a05","x":1663,"y":848,"width":400,"height":756},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/器件/晶闸管/晶闸管的正向阻断状态.md","id":"bdc47187eb5c12dc","x":1663,"y":-629,"width":400,"height":691},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/器件/晶闸管/晶闸管的符号.md","id":"761605dffce059e3","x":1033,"y":-415,"width":400,"height":379}
+	],
+	"edges":[
+		{"id":"1c40e294b8e73879","fromNode":"ee7f6f7c2ef512da","fromSide":"right","toNode":"a8c45a3675a68c4f","toSide":"left"},
+		{"id":"9e1eba49cb13bac1","fromNode":"a8c45a3675a68c4f","fromSide":"right","toNode":"761605dffce059e3","toSide":"left"},
+		{"id":"1700474484ae1310","fromNode":"ee7f6f7c2ef512da","fromSide":"right","toNode":"362d1b35fa3361e0","toSide":"left"},
+		{"id":"31b40585a34a5526","fromNode":"ee7f6f7c2ef512da","fromSide":"right","toNode":"eca4037e8d4e9543","toSide":"left"},
+		{"id":"1e3d2eb2062da22f","fromNode":"eca4037e8d4e9543","fromSide":"right","toNode":"e81db0de6f98cc9e","toSide":"left"},
+		{"id":"21a0fb24b162417c","fromNode":"e81db0de6f98cc9e","fromSide":"right","toNode":"bdc47187eb5c12dc","toSide":"left"},
+		{"id":"22db8e5418afad90","fromNode":"e81db0de6f98cc9e","fromSide":"right","toNode":"fa6d06d0cc89fe95","toSide":"left"},
+		{"id":"9ff7a1336510c21f","fromNode":"e81db0de6f98cc9e","fromSide":"right","toNode":"7bba55b6d8d78a05","toSide":"left"},
+		{"id":"dde4e4034909fbb0","fromNode":"ee7f6f7c2ef512da","fromSide":"right","toNode":"cfedcbeb397de5c1","toSide":"left"},
+		{"id":"8b29a2132d3e672e","fromNode":"cfedcbeb397de5c1","fromSide":"right","toNode":"88fc2385277c8dce","toSide":"left"},
+		{"id":"a20a546516f6c6a0","fromNode":"cfedcbeb397de5c1","fromSide":"right","toNode":"6b2bf4bbade91857","toSide":"left"}
+	]
+}

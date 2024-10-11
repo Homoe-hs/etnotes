@@ -1,0 +1,29 @@
+{
+	"nodes":[
+		{"type":"group","id":"3bd5e52ebdab7bc8","x":257,"y":-1242,"width":809,"height":1246,"label":"功率二极管的伏安特性"},
+		{"type":"group","id":"aee2bb03cf373fd3","x":257,"y":99,"width":859,"height":1143,"label":"功率二极管的动态特性"},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/器件/功率二极管/功率二极管导通的动态特性.md","id":"632e316a8dcec012","x":277,"y":119,"width":399,"height":928},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/器件/功率二极管/功率二极管的正向偏置.md","id":"c2be78bcf725e56e","x":291,"y":-1222,"width":359,"height":1141},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/器件/功率二极管/功率二极管的开关特性.md","id":"ad64d63ac3f14983","x":-359,"y":44,"width":327,"height":656},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/器件/功率二极管/功率二极管的伏安特性.md","id":"b14672d1eeee5c79","x":-359,"y":-371,"width":327,"height":186},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/器件/功率二极管/功率二极管关断的动态特性.md","id":"1107df85cf1067ba","x":696,"y":119,"width":400,"height":1103},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/器件/功率二极管/功率二极管的反向偏置.md","id":"a443214b35c47486","x":675,"y":-1222,"width":359,"height":1206},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/器件/功率二极管/功率二极管.md","id":"9270f4a9bd94f09d","x":-999,"y":-81,"width":400,"height":221},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/器件/功率二极管/功率二极管的分类.md","id":"9cb1f043fc92887a","x":-986,"y":1036,"width":400,"height":301},
+		{"id":"3fede8874eb3f443","x":-359,"y":1047,"width":400,"height":280,"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/器件/功率二极管/快恢复二极管.md"},
+		{"id":"696b1e860cc8f579","x":-359,"y":1362,"width":400,"height":202,"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/器件/功率二极管/肖特基二极管.md"},
+		{"id":"cd242d97c7f4fa07","x":-1080,"y":1425,"width":588,"height":380,"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/器件/功率二极管/不同功率二极管的比较.md"},
+		{"id":"8eca2425d988d332","x":-359,"y":767,"width":400,"height":249,"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/器件/功率二极管/常规二极管.md"}
+	],
+	"edges":[
+		{"id":"a0bfd539832901e0","fromNode":"b14672d1eeee5c79","fromSide":"right","toNode":"3bd5e52ebdab7bc8","toSide":"left"},
+		{"id":"f52375fcbf517d5a","fromNode":"ad64d63ac3f14983","fromSide":"right","toNode":"aee2bb03cf373fd3","toSide":"left"},
+		{"id":"1ad6cddd888f9180","fromNode":"9270f4a9bd94f09d","fromSide":"right","toNode":"b14672d1eeee5c79","toSide":"left"},
+		{"id":"66b69140ab3e79cc","fromNode":"9270f4a9bd94f09d","fromSide":"right","toNode":"ad64d63ac3f14983","toSide":"left"},
+		{"id":"abcaac609c4911a5","fromNode":"9270f4a9bd94f09d","fromSide":"bottom","toNode":"9cb1f043fc92887a","toSide":"top"},
+		{"id":"d46e6dd5b862e7a3","fromNode":"9cb1f043fc92887a","fromSide":"right","toNode":"8eca2425d988d332","toSide":"left"},
+		{"id":"3106866a64f3e3ce","fromNode":"9cb1f043fc92887a","fromSide":"right","toNode":"3fede8874eb3f443","toSide":"left"},
+		{"id":"8d3718a77e05dc76","fromNode":"9cb1f043fc92887a","fromSide":"right","toNode":"696b1e860cc8f579","toSide":"left"},
+		{"id":"cd7a951f439c4eb8","fromNode":"9cb1f043fc92887a","fromSide":"bottom","toNode":"cd242d97c7f4fa07","toSide":"top"}
+	]
+}

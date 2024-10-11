@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/器件/IGBT/IGBT.md","id":"56c57069835f6c1e","x":-5,"y":-119,"width":400,"height":299},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/器件/IGBT/IGBT 的擎住效应.md","id":"0c766aa9bc5109a0","x":679,"y":327,"width":400,"height":506},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/器件/IGBT/IGBT 的结构.md","id":"e5a2be6931903405","x":675,"y":-842,"width":404,"height":642},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/器件/IGBT/IGBT 的符号.md","id":"35e5bc00e721f999","x":677,"y":-172,"width":400,"height":471}
+	],
+	"edges":[
+		{"id":"0f56d73805c4f2a6","fromNode":"56c57069835f6c1e","fromSide":"right","toNode":"e5a2be6931903405","toSide":"left"},
+		{"id":"d2fa5695e7083e45","fromNode":"56c57069835f6c1e","fromSide":"right","toNode":"35e5bc00e721f999","toSide":"left"},
+		{"id":"18849bd9ff6ea7f8","fromNode":"56c57069835f6c1e","fromSide":"right","toNode":"0c766aa9bc5109a0","toSide":"left"}
+	]
+}

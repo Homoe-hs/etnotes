@@ -1,0 +1,33 @@
+{
+	"nodes":[
+		{"id":"827c50c1d5370ac4","type":"file","file":"100 项目笔记/NTU/EE6303 电磁兼容设计/Chapter 3 电磁干扰/波束面积计算式.md","x":-100,"y":-474,"width":400,"height":194},
+		{"id":"fe8e1b34d6f3e7e3","type":"file","file":"100 项目笔记/NTU/EE6303 电磁兼容设计/Chapter 3 电磁干扰/方向性系数计算式.md","x":-100,"y":-244,"width":400,"height":228},
+		{"id":"ac21e609dd666c45","type":"file","file":"100 项目笔记/NTU/EE6303 电磁兼容设计/Chapter 3 电磁干扰/归一化电场定义式.md","x":-100,"y":-896,"width":400,"height":165},
+		{"id":"4ff1d026ecf8cb1f","type":"file","file":"100 项目笔记/NTU/EE6303 电磁兼容设计/Chapter 3 电磁干扰/归一化功率计算式.md","x":-100,"y":-705,"width":400,"height":198},
+		{"id":"e77924917efb4f7a","type":"file","file":"100 项目笔记/NTU/EE6303 电磁兼容设计/Chapter 3 电磁干扰/归一化电场与归一化功率的关系.md","x":388,"y":-751,"width":400,"height":92},
+		{"id":"4e9f2ca49ba842d8","type":"file","file":"100 项目笔记/NTU/EE6303 电磁兼容设计/Chapter 2 射频干扰/天线增益计算式.md","x":-100,"y":32,"width":400,"height":227},
+		{"id":"cc6d8c9af398045d","type":"file","file":"200 文献笔记/线下课程/UESTC/格院大四上课程/数字通信课程/课程 slides/链路预算设计/有效辐射功率计算式.md","x":494,"y":-539,"width":400,"height":166},
+		{"id":"174a06513aa610e0","type":"file","file":"100 项目笔记/NTU/EE6303 电磁兼容设计/Chapter 2 射频干扰/远场功率密度计算式.md","x":494,"y":-336,"width":400,"height":191},
+		{"id":"470ddbe04916a11f","type":"file","file":"100 项目笔记/NTU/EE6303 电磁兼容设计/Chapter 2 射频干扰/远场电场强度计算式.md","x":494,"y":-97,"width":400,"height":190},
+		{"id":"cd8c00eb313408c1","type":"file","file":"100 项目笔记/NTU/EE6303 电磁兼容设计/Chapter 2 射频干扰/Friss 传输方程.md","x":494,"y":158,"width":400,"height":233},
+		{"id":"b88cb2f69faf3dde","type":"file","file":"100 项目笔记/NTU/EE6303 电磁兼容设计/Chapter 2 射频干扰/路径损耗计算式.md","x":958,"y":175,"width":400,"height":199},
+		{"id":"1052f751fdda08ac","x":329,"y":1116,"width":400,"height":198,"type":"file","file":"100 项目笔记/NTU/EE6303 电磁兼容设计/Chapter 3 电磁干扰/平行板相速度计算式.md"},
+		{"id":"dcfd9d3d4e23cafa","x":771,"y":1116,"width":400,"height":199,"type":"file","file":"100 项目笔记/NTU/EE6303 电磁兼容设计/Chapter 3 电磁干扰/平行板波阻抗计算式.md"},
+		{"id":"f29ea72216943a01","x":771,"y":1365,"width":400,"height":254,"type":"file","file":"100 项目笔记/NTU/EE6303 电磁兼容设计/Chapter 3 电磁干扰/平行板特征阻抗计算式.md"},
+		{"id":"a2fc5cdb7cec7f27","x":329,"y":731,"width":400,"height":216,"type":"file","file":"100 项目笔记/NTU/EE6303 电磁兼容设计/Chapter 3 电磁干扰/平行板传输线电容计算式.md"},
+		{"id":"1190d153fd0c169d","x":771,"y":744,"width":400,"height":191,"type":"file","file":"100 项目笔记/NTU/EE6303 电磁兼容设计/Chapter 3 电磁干扰/平行板传输线电感计算式.md"}
+	],
+	"edges":[
+		{"id":"3f0444766510e540","fromNode":"827c50c1d5370ac4","fromSide":"bottom","toNode":"fe8e1b34d6f3e7e3","toSide":"top"},
+		{"id":"09ee7f09fe1693c3","fromNode":"4ff1d026ecf8cb1f","fromSide":"bottom","toNode":"827c50c1d5370ac4","toSide":"top"},
+		{"id":"d1ff94d464d0a7cb","fromNode":"ac21e609dd666c45","fromSide":"bottom","toNode":"4ff1d026ecf8cb1f","toSide":"top"},
+		{"id":"e56aba86040763c4","fromNode":"ac21e609dd666c45","fromSide":"right","toNode":"e77924917efb4f7a","toSide":"left"},
+		{"id":"bd1d24f6dc5a8e72","fromNode":"4ff1d026ecf8cb1f","fromSide":"right","toNode":"e77924917efb4f7a","toSide":"left"},
+		{"id":"3ea703e02248a57b","fromNode":"fe8e1b34d6f3e7e3","fromSide":"bottom","toNode":"4e9f2ca49ba842d8","toSide":"top"},
+		{"id":"b9101f0fac207244","fromNode":"cc6d8c9af398045d","fromSide":"bottom","toNode":"174a06513aa610e0","toSide":"top"},
+		{"id":"cc05ecf9c7d498a2","fromNode":"174a06513aa610e0","fromSide":"bottom","toNode":"470ddbe04916a11f","toSide":"top"},
+		{"id":"779b620adbb6c9d6","fromNode":"470ddbe04916a11f","fromSide":"bottom","toNode":"cd8c00eb313408c1","toSide":"top"},
+		{"id":"bd760c41b802c99f","fromNode":"cd8c00eb313408c1","fromSide":"right","toNode":"b88cb2f69faf3dde","toSide":"left"},
+		{"id":"4ddc4d2103fa7d48","fromNode":"dcfd9d3d4e23cafa","fromSide":"bottom","toNode":"f29ea72216943a01","toSide":"top"}
+	]
+}

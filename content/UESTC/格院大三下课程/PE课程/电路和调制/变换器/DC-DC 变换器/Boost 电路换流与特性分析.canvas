@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"type":"text","text":"# Boost 电路换流与特性分析","id":"b9381ecd3013ae04","x":-280,"y":-201,"width":250,"height":100},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/电路和调制/变换器/DC-DC 变换器/Boost 电路连续模式换流分析.md","id":"ef37296d8ec217f0","x":212,"y":-1016,"width":400,"height":1478},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/电路和调制/变换器/DC-DC 变换器/Boost 电路稳态增益.md","id":"842f7315442a66d6","x":724,"y":-451,"width":400,"height":349},
+		{"id":"aca66b239e3430f4","x":1294,"y":-510,"width":400,"height":467,"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/电路和调制/变换器/DC-DC 变换器/Boost 电路电感电流.md"},
+		{"id":"abe59a677e257455","x":1812,"y":-502,"width":400,"height":452,"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/电路和调制/变换器/DC-DC 变换器/Boost 电路电容电压.md"},
+		{"id":"dca97d2b2b3991c8","x":1294,"y":15,"width":400,"height":577,"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/电路和调制/变换器/DC-DC 变换器/Boost 电路器件电流电压.md"}
+	],
+	"edges":[
+		{"id":"982b809c7db4ef5f","fromNode":"b9381ecd3013ae04","fromSide":"right","toNode":"ef37296d8ec217f0","toSide":"left"},
+		{"id":"9f06cfacff26be29","fromNode":"ef37296d8ec217f0","fromSide":"right","toNode":"842f7315442a66d6","toSide":"left"},
+		{"id":"49d26ef4d91ae819","fromNode":"842f7315442a66d6","fromSide":"right","toNode":"aca66b239e3430f4","toSide":"left"},
+		{"id":"c92aae01a1537ea1","fromNode":"aca66b239e3430f4","fromSide":"right","toNode":"abe59a677e257455","toSide":"left"},
+		{"id":"942f3018046173ec","fromNode":"842f7315442a66d6","fromSide":"right","toNode":"dca97d2b2b3991c8","toSide":"left"}
+	]
+}

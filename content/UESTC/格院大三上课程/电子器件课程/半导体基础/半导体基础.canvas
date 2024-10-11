@@ -1,0 +1,22 @@
+{
+	"nodes":[
+		{"type":"file","file":"400归档/课程/格院大二课程/半导体物理/ch1 固体的晶体结构/半导体.md","id":"d5fcd7b4ede2d091","x":281,"y":-339,"width":400,"height":313},
+		{"type":"file","file":"400归档/课程/格院大二课程/半导体物理/ch1 固体的晶体结构/半导体的特性.md","id":"1215d67a226cc292","x":863,"y":-872,"width":400,"height":533},
+		{"type":"file","file":"400归档/课程/格院大二课程/半导体物理/ch1 固体的晶体结构/半导体的分类.md","id":"f109c8a472b19651","x":863,"y":-182,"width":400,"height":288},
+		{"type":"file","file":"400归档/课程/格院大二课程/模电基础/ch2 半导体器件基础/杂质半导体.md","id":"42d24f6aed29252e","x":1454,"y":25,"width":400,"height":400},
+		{"type":"file","file":"400归档/课程/格院大二课程/模电基础/ch2 半导体器件基础/本征半导体.md","id":"78f871d5d8a5eb53","x":1454,"y":-488,"width":400,"height":400},
+		{"type":"text","text":"# 半导体基础","id":"0dda575b5698976e","x":-92,"y":-212,"width":241,"height":60},
+		{"id":"f067292b4b10518b","x":2043,"y":-432,"width":400,"height":288,"type":"file","file":"200 文献笔记/线下课程/格院大三上课程/电子器件课程/半导体基础/本征激发.md"},
+		{"id":"c461394f9160077b","x":2043,"y":-854,"width":400,"height":301,"type":"file","file":"200 文献笔记/线下课程/格院大三上课程/电子器件课程/一般材料的概念/普朗克关系式.md"},
+		{"id":"b445fc009d3eb4ee","x":2043,"y":25,"width":400,"height":330,"type":"file","file":"400归档/课程/格院大二课程/半导体物理/ch3 固体量子理论简介/费米能级.md"}
+	],
+	"edges":[
+		{"id":"cdf4d17eb19a21f3","fromNode":"d5fcd7b4ede2d091","fromSide":"right","toNode":"1215d67a226cc292","toSide":"left"},
+		{"id":"7c577d754718dce2","fromNode":"0dda575b5698976e","fromSide":"right","toNode":"d5fcd7b4ede2d091","toSide":"left"},
+		{"id":"abd212e474a625ea","fromNode":"d5fcd7b4ede2d091","fromSide":"right","toNode":"f109c8a472b19651","toSide":"left"},
+		{"id":"a5ac89ed165c3e5c","fromNode":"f109c8a472b19651","fromSide":"right","toNode":"78f871d5d8a5eb53","toSide":"left"},
+		{"id":"35eb7121ec5034be","fromNode":"f109c8a472b19651","fromSide":"right","toNode":"42d24f6aed29252e","toSide":"left"},
+		{"id":"0cbede7cf1182dad","fromNode":"78f871d5d8a5eb53","fromSide":"right","toNode":"f067292b4b10518b","toSide":"left"},
+		{"id":"38aa9c15881138f7","fromNode":"c461394f9160077b","fromSide":"bottom","toNode":"f067292b4b10518b","toSide":"top"}
+	]
+}

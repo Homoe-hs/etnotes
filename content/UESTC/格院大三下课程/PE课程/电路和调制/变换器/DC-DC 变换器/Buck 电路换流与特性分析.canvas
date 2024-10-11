@@ -1,0 +1,26 @@
+{
+	"nodes":[
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/电路和调制/变换器/DC-DC 变换器/Buck 电路稳态增益分析.md","id":"9639c99d3e5b901f","x":-430,"y":-1544,"width":400,"height":658},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/电路和调制/变换器/DC-DC 变换器/电感电压的伏秒平衡.md","id":"a1c2dda5ba5e1255","x":124,"y":-1159,"width":400,"height":400},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/电路和调制/变换器/DC-DC 变换器/电容电流的安秒平衡.md","id":"918aa5311a36c34c","x":584,"y":-1159,"width":400,"height":400},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/电路和调制/变换器/DC-DC 变换器/Buck 电路连续模式换流分析.md","id":"81b015a8df9db6d9","x":-983,"y":-1594,"width":400,"height":1059},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/电路和调制/变换器/DC-DC 变换器/Buck 电路电感电流.md","id":"79bf06429b591a31","x":-430,"y":-759,"width":511,"height":483},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/电路和调制/变换器/DC-DC 变换器/Buck 器件电流电压.md","id":"f67f2769342ff4c3","x":-345,"y":-220,"width":342,"height":591},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/电路和调制/变换器/DC-DC 变换器/Buck 电路断续模式换流分析.md","id":"b1db6a96e90dea00","x":-972,"y":432,"width":400,"height":1033},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/电路和调制/变换器/DC-DC 变换器/Buck 电路断续模式电感电容分析.md","id":"1c2fbb1ed376d09b","x":-368,"y":502,"width":400,"height":755},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/电路和调制/变换器/DC-DC 变换器/Buck 电路断续模式器件分析.md","id":"bb326a1c832549d3","x":134,"y":561,"width":400,"height":637},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/电路和调制/变换器/DC-DC 变换器/Buck 电路断续状态分析.md","id":"49e326bfb3cf492e","x":134,"y":1285,"width":400,"height":309},
+		{"type":"text","text":"# Buck 电路换流与特性分析","id":"3ec1f90b758ee1a3","x":-1587,"y":-104,"width":250,"height":109},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/电路和调制/变换器/DC-DC 变换器/Buck 电路电容电压.md","id":"a46a9ae1627b5dbc","x":124,"y":-646,"width":400,"height":258}
+	],
+	"edges":[
+		{"id":"f150818c20ec7e39","fromNode":"81b015a8df9db6d9","fromSide":"right","toNode":"9639c99d3e5b901f","toSide":"left"},
+		{"id":"1597bf9e7113173b","fromNode":"a1c2dda5ba5e1255","fromSide":"left","toNode":"9639c99d3e5b901f","toSide":"right"},
+		{"id":"ddb6221789abc5f1","fromNode":"918aa5311a36c34c","fromSide":"left","toNode":"a1c2dda5ba5e1255","toSide":"right","toEnd":"none"},
+		{"id":"f66ed65dc40adb57","fromNode":"81b015a8df9db6d9","fromSide":"right","toNode":"79bf06429b591a31","toSide":"left"},
+		{"id":"b09203494e10cf3a","fromNode":"81b015a8df9db6d9","fromSide":"bottom","toNode":"b1db6a96e90dea00","toSide":"top","fromEnd":"arrow"},
+		{"id":"25c1fda6e3d90d30","fromNode":"79bf06429b591a31","fromSide":"right","toNode":"a46a9ae1627b5dbc","toSide":"left","toEnd":"none"},
+		{"id":"94404646dda8af9e","fromNode":"b1db6a96e90dea00","fromSide":"right","toNode":"1c2fbb1ed376d09b","toSide":"left"},
+		{"id":"5bfa5531ad3e8562","fromNode":"1c2fbb1ed376d09b","fromSide":"right","toNode":"bb326a1c832549d3","toSide":"left","toEnd":"none"}
+	]
+}

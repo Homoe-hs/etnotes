@@ -1,0 +1,12 @@
+{
+	"nodes":[
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/EPMF课程/工程经济学/外包/外包.md","id":"3dc479c529a8cffe","x":-46,"y":-49,"width":400,"height":400},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/EPMF课程/工程经济学/外包/外包的原因.md","id":"296f04d5428e8e49","x":509,"y":-263,"width":400,"height":518},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/EPMF课程/工程经济学/外包/PricewaterhouseCoopers Model.md","id":"a23d41d17921a7d2","x":971,"y":-263,"width":400,"height":461},
+		{"id":"27a0ef950076092a","x":509,"y":315,"width":400,"height":635,"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/EPMF课程/工程经济学/外包/外包的实施.md"}
+	],
+	"edges":[
+		{"id":"1bd99e1df062ef8b","fromNode":"3dc479c529a8cffe","fromSide":"right","toNode":"296f04d5428e8e49","toSide":"left"},
+		{"id":"1a2d4ca638b79df5","fromNode":"3dc479c529a8cffe","fromSide":"right","toNode":"27a0ef950076092a","toSide":"left"}
+	]
+}

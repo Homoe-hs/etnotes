@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"type":"text","text":"# 电力电子技术","id":"4a60e0cb9f986ca6","x":-310,"y":-144,"width":224,"height":69},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/器件/电力电子器件.canvas","id":"e210a4b95ed1336f","x":245,"y":-509,"width":400,"height":400},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/电路和调制/变换器/变换器.canvas","id":"f3085ba515a4f647","x":245,"y":-11,"width":400,"height":400}
+	],
+	"edges":[
+		{"id":"ac8416e8306179e8","fromNode":"4a60e0cb9f986ca6","fromSide":"right","toNode":"e210a4b95ed1336f","toSide":"left","label":"器件"},
+		{"id":"86d81971817d7ec1","fromNode":"4a60e0cb9f986ca6","fromSide":"right","toNode":"f3085ba515a4f647","toSide":"left","label":"变换器"}
+	]
+}

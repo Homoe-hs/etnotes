@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/EPMF课程/工程经济学/财务分析/损益表/损益表的构成.md","id":"e2387fb23643c1e8","x":-583,"y":-438,"width":400,"height":633},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/EPMF课程/工程经济学/财务分析/损益表/损益表的作用.md","id":"5cb0147bfe89f89c","x":-1603,"y":-558,"width":400,"height":434},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/EPMF课程/工程经济学/财务分析/损益表/损益表的局限.md","id":"625b49d6415a7e38","x":-1603,"y":-11,"width":400,"height":352},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/EPMF课程/工程经济学/财务分析/损益表/损益表.md","id":"d6e815a213ac1be0","x":-1077,"y":-324,"width":400,"height":405},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/EPMF课程/工程经济学/财务分析/损益表/毛利润.md","id":"abeed29bb33934c0","x":-6,"y":-743,"width":400,"height":411},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/EPMF课程/工程经济学/财务分析/损益表/营业利润.md","id":"a8472c85a39bb235","x":-6,"y":-300,"width":400,"height":357},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/EPMF课程/工程经济学/财务分析/损益表/净利润.md","id":"5c674101c63ec69a","x":-6,"y":104,"width":400,"height":286},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/EPMF课程/工程经济学/财务分析/损益表/EBIT.md","id":"3e87251e576bcd6c","x":458,"y":-632,"width":400,"height":511},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/EPMF课程/工程经济学/财务分析/损益表/EBITDA.md","id":"97d78cf4bcbc903a","x":458,"y":-73,"width":400,"height":347}
+	],
+	"edges":[
+		{"id":"5d34774d7e3d9a3b","fromNode":"d6e815a213ac1be0","fromSide":"right","toNode":"e2387fb23643c1e8","toSide":"left"},
+		{"id":"03b6309662054526","fromNode":"e2387fb23643c1e8","fromSide":"right","toNode":"a8472c85a39bb235","toSide":"left"},
+		{"id":"54f57cca4943bb75","fromNode":"e2387fb23643c1e8","fromSide":"right","toNode":"abeed29bb33934c0","toSide":"left"},
+		{"id":"9edae407d66b3ebc","fromNode":"e2387fb23643c1e8","fromSide":"right","toNode":"5c674101c63ec69a","toSide":"left"},
+		{"id":"721b2f3b39413c27","fromNode":"d6e815a213ac1be0","fromSide":"left","toNode":"5cb0147bfe89f89c","toSide":"right"},
+		{"id":"e5ef6503e25cfcd6","fromNode":"d6e815a213ac1be0","fromSide":"left","toNode":"625b49d6415a7e38","toSide":"right"}
+	]
+}

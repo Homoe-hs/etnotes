@@ -1,0 +1,39 @@
+{
+	"nodes":[
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/电路和调制/变换器/DC-DC 变换器/DC-DC 变换器.md","id":"d767ec3740c5182b","x":-1285,"y":-706,"width":400,"height":325},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/电路和调制/变换器/DC-DC 变换器/DC-DC 变换器的分类.md","id":"ed85b24e5c40910e","x":-646,"y":-1106,"width":428,"height":400},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/电路和调制/变换器/DC-DC 变换器/DC-DC 变换器基本结构.md","id":"5eb38dc53a8202cf","x":-618,"y":-587,"width":400,"height":309},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/电路和调制/变换器/DC-DC 变换器/Buck 基本结构.md","id":"e18a26596a9c14e0","x":158,"y":-1762,"width":400,"height":670},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/电路和调制/变换器/DC-DC 变换器/Boost 基本结构.md","id":"ab0af30c5eefa50a","x":158,"y":-1044,"width":400,"height":557},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/电路和调制/变换器/DC-DC 变换器/Buck-Boost 基本结构.md","id":"73f4dcdaa64a6f6f","x":158,"y":-432,"width":400,"height":322},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/电路和调制/变换器/DC-DC 变换器/Buck、Boost、Buck-Boost 三种基本结构的关联.md","id":"659a8c3e89ec44ca","x":886,"y":-965,"width":400,"height":400},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/电路和调制/变换器/DC-DC 变换器/Boost-Buck 基本结构.md","id":"672e59072f6e0c8e","x":158,"y":-46,"width":400,"height":316},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/电路和调制/变换器/DC-DC 变换器/Zeta 基本结构.md","id":"12ee0f5bd7db8579","x":752,"y":161,"width":400,"height":411},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/电路和调制/变换器/DC-DC 变换器/Sepic 基本结构.md","id":"956b16d36a5e71db","x":752,"y":-331,"width":400,"height":443},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/电路和调制/变换器/DC-DC 变换器/斩波.md","id":"8d719e34409fefe8","x":-1285,"y":-1088,"width":400,"height":182},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/电路和调制/变换器/DC-DC 变换器/斩流.md","id":"50528987bf4ca124","x":-1285,"y":-1310,"width":400,"height":177},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/电路和调制/变换器/DC-DC 变换器/Buck 电路换流与特性分析.canvas","id":"d2f5ccb370e4e6fb","x":22,"y":428,"width":400,"height":400},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/电路和调制/变换器/DC-DC 变换器/Boost 电路换流与特性分析.canvas","id":"dd403483d014d97c","x":22,"y":916,"width":400,"height":400},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/电路和调制/变换器/DC-DC 变换器/DC-DC 变换器换流及其特性分析.md","id":"c7373f1c114b4f08","x":-620,"y":870,"width":400,"height":492},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/电路和调制/变换器/DC-DC 变换器/Buck-Boost 电路换流与特性分析.canvas","id":"97c990c53dd63658","x":22,"y":1362,"width":400,"height":400}
+	],
+	"edges":[
+		{"id":"e2d2dd8fd64c9cea","fromNode":"d767ec3740c5182b","fromSide":"right","toNode":"ed85b24e5c40910e","toSide":"left"},
+		{"id":"c1ed75ded9f07670","fromNode":"d767ec3740c5182b","fromSide":"right","toNode":"5eb38dc53a8202cf","toSide":"left"},
+		{"id":"1f0449ed19d3ce8f","fromNode":"d767ec3740c5182b","fromSide":"right","toNode":"c7373f1c114b4f08","toSide":"left"},
+		{"id":"43ae3b14c094899e","fromNode":"8d719e34409fefe8","fromSide":"bottom","toNode":"d767ec3740c5182b","toSide":"top"},
+		{"id":"be701f83799abf02","fromNode":"5eb38dc53a8202cf","fromSide":"right","toNode":"e18a26596a9c14e0","toSide":"left"},
+		{"id":"ed19d65038b3e232","fromNode":"5eb38dc53a8202cf","fromSide":"right","toNode":"ab0af30c5eefa50a","toSide":"left"},
+		{"id":"636133d1141733df","fromNode":"5eb38dc53a8202cf","fromSide":"right","toNode":"73f4dcdaa64a6f6f","toSide":"left"},
+		{"id":"180af947482ca866","fromNode":"5eb38dc53a8202cf","fromSide":"right","toNode":"672e59072f6e0c8e","toSide":"left"},
+		{"id":"dfc783339cfabd82","fromNode":"e18a26596a9c14e0","fromSide":"right","toNode":"659a8c3e89ec44ca","toSide":"left"},
+		{"id":"0131f22c0fc49e29","fromNode":"ab0af30c5eefa50a","fromSide":"right","toNode":"659a8c3e89ec44ca","toSide":"left"},
+		{"id":"34695b089706d1cd","fromNode":"73f4dcdaa64a6f6f","fromSide":"right","toNode":"659a8c3e89ec44ca","toSide":"left"},
+		{"id":"959720f83af64570","fromNode":"672e59072f6e0c8e","fromSide":"right","toNode":"956b16d36a5e71db","toSide":"left"},
+		{"id":"67e53c81e67e81e8","fromNode":"672e59072f6e0c8e","fromSide":"right","toNode":"12ee0f5bd7db8579","toSide":"left"},
+		{"id":"7cbc6c57f4868733","fromNode":"50528987bf4ca124","fromSide":"bottom","toNode":"8d719e34409fefe8","toSide":"top","fromEnd":"arrow"},
+		{"id":"159b4290fe5b3d65","fromNode":"c7373f1c114b4f08","fromSide":"right","toNode":"d2f5ccb370e4e6fb","toSide":"left"},
+		{"id":"2e0031df4c0a1a4d","fromNode":"c7373f1c114b4f08","fromSide":"right","toNode":"dd403483d014d97c","toSide":"left"},
+		{"id":"5542eceeda7f3133","fromNode":"c7373f1c114b4f08","fromSide":"right","toNode":"97c990c53dd63658","toSide":"left"}
+	]
+}

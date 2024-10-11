@@ -1,0 +1,33 @@
+{
+	"nodes":[
+		{"id":"83e78bbc1d5eba47","type":"group","x":72,"y":340,"width":899,"height":296,"label":"本征半导体参数"},
+		{"id":"12c113f5b0b25284","type":"group","x":-165,"y":-311,"width":882,"height":271,"label":"有效状态密度计算式"},
+		{"id":"5926bd9513021a77","type":"group","x":-165,"y":19,"width":882,"height":266,"label":"载流子热平衡浓度"},
+		{"id":"17ac314b1d778dd3","type":"group","x":-165,"y":722,"width":941,"height":236,"label":"掺杂半导体费米能级"},
+		{"id":"4f55354155edcd1d","type":"group","x":-165,"y":-896,"width":875,"height":238,"label":"载流子状态密度函数"},
+		{"id":"25982a14be7f5600","type":"file","file":"100 项目笔记/NTU/EE6604 半导体器件高级主题/硅 BJT/导带有效状态密度计算式.md","x":-145,"y":-291,"width":400,"height":231},
+		{"id":"1c010da9e7ab2ead","type":"file","file":"100 项目笔记/NTU/EE6604 半导体器件高级主题/硅 BJT/价带有效状态密度计算式.md","x":297,"y":-291,"width":400,"height":231},
+		{"id":"34c9cc25e2f867b9","type":"file","file":"200 文献笔记/线下课程/UESTC/格院大二课程/半导体物理/ch4 平衡半导体/导带电子热平衡浓度计算公式.md","x":-145,"y":39,"width":400,"height":226},
+		{"id":"1969f4157b1b0f9e","type":"file","file":"200 文献笔记/线下课程/UESTC/格院大二课程/半导体物理/ch3 固体量子理论简介/导带电子状态密度函数计算式.md","x":-145,"y":-876,"width":400,"height":195},
+		{"id":"da9c0df5715bacb5","type":"file","file":"200 文献笔记/线下课程/UESTC/格院大二课程/半导体物理/ch3 固体量子理论简介/价带空穴状态密度函数计算式.md","x":290,"y":-876,"width":400,"height":198},
+		{"id":"a3339bc2a12b38d0","type":"file","file":"200 文献笔记/线下课程/UESTC/格院大二课程/半导体物理/ch3 固体量子理论简介/费米-狄拉克分布函数公式.md","x":82,"y":-622,"width":383,"height":266},
+		{"id":"6462a541475a2bb4","type":"text","text":"基本参数\n$E_{C}$, $E_{v}$,  $m_{n}$, $m_{p}$, $h$, $k$, $T$","x":837,"y":-807,"width":250,"height":60},
+		{"id":"742301409e061679","type":"file","file":"200 文献笔记/线下课程/UESTC/格院大三上课程/电子器件课程/半导体基础/价带空穴热平衡浓度计算公式.md","x":297,"y":39,"width":400,"height":226},
+		{"id":"32b36eeac7799085","type":"file","file":"200 文献笔记/线下课程/UESTC/格院大四上课程/微波集成电路课程/课程笔记/MIC 基础知识/本征费米能级计算式.md","x":551,"y":360,"width":400,"height":256},
+		{"id":"4d5cb6b9831f42c5","type":"file","file":"100 项目笔记/NTU/EE6604 半导体器件高级主题/硅 BJT/P 型半导体费米能级计算式.md","x":356,"y":742,"width":400,"height":196},
+		{"id":"62b427e243591ace","type":"file","file":"100 项目笔记/NTU/EE6604 半导体器件高级主题/硅 BJT/N 型半导体费米能级计算式.md","x":-145,"y":742,"width":400,"height":196},
+		{"id":"b6f73eb00bc634f6","type":"file","file":"200 文献笔记/线下课程/UESTC/格院大二课程/半导体物理/ch4 平衡半导体/本征载流子浓度计算式.md","x":82,"y":351,"width":400,"height":265}
+	],
+	"edges":[
+		{"id":"c4d112d0120ef7c0","fromNode":"25982a14be7f5600","fromSide":"bottom","toNode":"34c9cc25e2f867b9","toSide":"top"},
+		{"id":"8be54fc009ef5cef","fromNode":"1969f4157b1b0f9e","fromSide":"bottom","toNode":"a3339bc2a12b38d0","toSide":"left"},
+		{"id":"8f10e9e6201ab1ed","fromNode":"a3339bc2a12b38d0","fromSide":"left","toNode":"25982a14be7f5600","toSide":"top"},
+		{"id":"338cf14642e1b3f0","fromNode":"da9c0df5715bacb5","fromSide":"bottom","toNode":"a3339bc2a12b38d0","toSide":"right"},
+		{"id":"5d1b8c83a2e5782b","fromNode":"a3339bc2a12b38d0","fromSide":"right","toNode":"1c010da9e7ab2ead","toSide":"top"},
+		{"id":"d6072822b3b261b6","fromNode":"1c010da9e7ab2ead","fromSide":"bottom","toNode":"742301409e061679","toSide":"top"},
+		{"id":"5e8c28278dcd682b","fromNode":"34c9cc25e2f867b9","fromSide":"bottom","toNode":"b6f73eb00bc634f6","toSide":"top"},
+		{"id":"7c00bf775a5aaf51","fromNode":"742301409e061679","fromSide":"bottom","toNode":"b6f73eb00bc634f6","toSide":"top"},
+		{"id":"1077bb797ae1c4f7","fromNode":"12c113f5b0b25284","fromSide":"right","toNode":"32b36eeac7799085","toSide":"right"},
+		{"id":"81a5252e4b9440ad","fromNode":"83e78bbc1d5eba47","fromSide":"bottom","toNode":"17ac314b1d778dd3","toSide":"top"}
+	]
+}

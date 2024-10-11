@@ -1,0 +1,14 @@
+{
+	"nodes":[
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/变换器.md","id":"078fe037e5723644","x":-159,"y":-94,"width":400,"height":236},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/电路和调制/变换器/变换器的分类.md","id":"760ee09ba8876ffd","x":308,"y":-135,"width":400,"height":318},
+		{"type":"file","file":"400归档/课程/格院大二课程/嵌入式处理器/lec 6 PWM 和 UART/占空比.md","id":"b05ea861b71b6153","x":384,"y":-1032,"width":415,"height":478},
+		{"id":"d9085dd43abca15f","x":937,"y":42,"width":400,"height":400,"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/电路和调制/变换器/DC-AC 变换器/DC-AC 变换器.canvas"},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/电路和调制/变换器/DC-DC 变换器/DC-DC 变换器.canvas","id":"75acb23f39e51727","x":937,"y":-404,"width":400,"height":400}
+	],
+	"edges":[
+		{"id":"c136bf1dd920675e","fromNode":"078fe037e5723644","fromSide":"right","toNode":"760ee09ba8876ffd","toSide":"left"},
+		{"id":"2e264dd2f88d47d7","fromNode":"760ee09ba8876ffd","fromSide":"right","toNode":"75acb23f39e51727","toSide":"left","label":"斩波"},
+		{"id":"e26d796cbf447ee8","fromNode":"760ee09ba8876ffd","fromSide":"right","toNode":"d9085dd43abca15f","toSide":"left"}
+	]
+}

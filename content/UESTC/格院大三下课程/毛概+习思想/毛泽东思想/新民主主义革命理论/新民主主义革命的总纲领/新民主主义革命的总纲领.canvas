@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/毛泽东思想/新民主主义革命理论/新民主主义革命的总纲领/新民主主义的基本纲领的形成.md","id":"a68d485b99ac1531","x":-102,"y":-275,"width":417,"height":299,"color":"3"},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/毛泽东思想/新民主主义革命理论/新民主主义革命的总纲领/新民主主义的基本政治纲领.md","id":"d586d6021a6cbccd","x":596,"y":-348,"width":586,"height":328,"color":"3"},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/毛泽东思想/新民主主义革命理论/新民主主义革命的总纲领/新民主主义的基本经济纲领.md","id":"415e511b68b82151","x":596,"y":14,"width":586,"height":489,"color":"3"},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/毛泽东思想/新民主主义革命理论/新民主主义革命的总纲领/新民主主义的基本文化纲领.md","id":"94326e994ce1f9f1","x":596,"y":553,"width":586,"height":476,"color":"3"},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/毛泽东思想/新民主主义革命理论/新民主主义革命的总纲领/新民主主义的基本纲领.md","id":"f80097b984dba359","x":-58,"y":146,"width":329,"height":225,"color":"3"}
+	],
+	"edges":[
+		{"id":"444500d1c7ff5ae8","fromNode":"a68d485b99ac1531","fromSide":"bottom","toNode":"f80097b984dba359","toSide":"top"},
+		{"id":"39997e5443e3b182","fromNode":"f80097b984dba359","fromSide":"right","toNode":"d586d6021a6cbccd","toSide":"left"},
+		{"id":"d3cde2d65892218c","fromNode":"f80097b984dba359","fromSide":"right","toNode":"415e511b68b82151","toSide":"left"},
+		{"id":"b4fe954daf33bd47","fromNode":"f80097b984dba359","fromSide":"right","toNode":"94326e994ce1f9f1","toSide":"left"}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"nodes":[
+		{"type":"text","text":"# 毛泽东思想和中国特色社会主义理论体系概论","id":"a3923d35601342af","x":-439,"y":666,"width":265,"height":211},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/毛泽东思想/社会主义改造理论/社会主义改造理论.canvas","id":"4a20f6760d568448","x":1366,"y":881,"width":400,"height":400},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/毛泽东思想/社会主义建设道路初步探索的理论成果/社会主义建设道路初步探索的理论成果.canvas","id":"ae6ead3cd0e225bc","x":1366,"y":1336,"width":400,"height":400},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/毛泽东思想/毛泽东思想及其历史地位/毛泽东思想及其历史地位.canvas","id":"7863885e4d3e14b6","x":1366,"y":-24,"width":400,"height":400},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/毛泽东思想/新民主主义革命理论/新民主主义革命理论.canvas","id":"707b521205f22f77","x":1366,"y":432,"width":400,"height":400},
+		{"type":"text","text":"## 毛泽东思想","id":"e0f034cc4b1adb08","x":66,"y":742,"width":219,"height":60},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/导论/马克思主义中国化的三次飞跃.canvas","id":"46d83f1555495566","x":747,"y":-194,"width":400,"height":400},
+		{"type":"text","text":"## 导论","id":"8aa6f64aa9b90908","x":112,"y":-24,"width":128,"height":60},
+		{"type":"text","text":"## 中国特色社会主义理论体系","id":"8a30000947b5232b","x":160,"y":2107,"width":250,"height":116},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/中国特色社会主义理论体系/科学发展观/科学发展观.canvas","id":"c5debf12a324da2a","x":810,"y":2409,"width":400,"height":400},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/中国特色社会主义理论体系/“三个代表”重要思想/“三个代表”重要思想.canvas","id":"342b73ede2be94db","x":810,"y":1965,"width":400,"height":400},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/中国特色社会主义理论体系/邓小平理论/邓小平理论.canvas","id":"5b3c15085a6319ab","x":810,"y":1536,"width":400,"height":400}
+	],
+	"edges":[
+		{"id":"ece1b3fcbb63c740","fromNode":"a3923d35601342af","fromSide":"right","toNode":"8aa6f64aa9b90908","toSide":"left"},
+		{"id":"efc43520eb77da3e","fromNode":"a3923d35601342af","fromSide":"right","toNode":"e0f034cc4b1adb08","toSide":"left"},
+		{"id":"d8020d1149a0946b","fromNode":"a3923d35601342af","fromSide":"right","toNode":"8a30000947b5232b","toSide":"left"},
+		{"id":"7b08eaa0b77aec2b","fromNode":"8aa6f64aa9b90908","fromSide":"right","toNode":"46d83f1555495566","toSide":"left","label":"马克思主义中国化的三次飞跃"},
+		{"id":"702ac33c777a2895","fromNode":"e0f034cc4b1adb08","fromSide":"right","toNode":"7863885e4d3e14b6","toSide":"left","label":"毛泽东思想及其历史地位"},
+		{"id":"7c945bcfcb273957","fromNode":"e0f034cc4b1adb08","fromSide":"right","toNode":"707b521205f22f77","toSide":"left","label":"新民主主义革命理论"},
+		{"id":"f31fb4a8f0e0e8b8","fromNode":"e0f034cc4b1adb08","fromSide":"right","toNode":"ae6ead3cd0e225bc","toSide":"left","label":"社会主义建设道路初步探索的理论成果"},
+		{"id":"94f78d407d5567b4","fromNode":"e0f034cc4b1adb08","fromSide":"right","toNode":"4a20f6760d568448","toSide":"left","label":"社会主义改造理论"},
+		{"id":"f4f09f0947506794","fromNode":"8a30000947b5232b","fromSide":"right","toNode":"5b3c15085a6319ab","toSide":"left","label":"邓小平理论"},
+		{"id":"d54e076675d73796","fromNode":"8a30000947b5232b","fromSide":"right","toNode":"342b73ede2be94db","toSide":"left","label":"“三个代表”"},
+		{"id":"8f28ba17698e5547","fromNode":"8a30000947b5232b","fromSide":"right","toNode":"c5debf12a324da2a","toSide":"left","label":"科学发展观"}
+	]
+}
