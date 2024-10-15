@@ -5,5 +5,5 @@ aliases:
 tags: 
 ---
 $$
-g_m=\frac{e\beta I_B}{k_BT}
+g_m=\frac{q\beta I_B}{k_BT}
 $$

@@ -6,8 +6,6 @@ number headings: auto, first-level 1, max 5, contents ^toc, 1.1.
 ---
 # 1. MOS 电容
 
-这一部分仅作为复习。
-
 ## 1.1. FET
 
 ![[FET|场效应晶体管]]
