@@ -1,13 +1,12 @@
 ---
-title: S 参数
+对象类型: 参数
 date: 2023-11-11 11:25
 modification date: 2023 十一月 11日 星期六 11:25:56
 aliases:
   - Scattering parameters
   - S-parameters
   - 散射参数
-tags: 
-publish: "true"
+tags:
 ---
 S 参数是一种用于描述多端口网络中**信号传输和散射特性**的重要工具，是一个无量纲参数。
 
@@ -49,4 +48,3 @@ $$
 \begin{bmatrix}S\end{bmatrix}^{H}\begin{bmatrix}S\end{bmatrix}=\begin{bmatrix}I\end{bmatrix}
 $$
 即 S 参数是一个[[酉矩阵]]。
-
