@@ -185,7 +185,7 @@ $$
 \hat{E}_{\theta} =j\frac{\hat{I}L}{2\pi r}\eta_{0}\beta_{0}e^{-j\beta_{0}r}\frac{\sin(\beta_{0}L\cos\theta)}{\beta_{0}L\cos\theta}\sin\theta 
 $$
 有归一化电场定义，
-![[100 项目笔记/NTU/EE6303 电磁兼容设计/Chapter 2 射频干扰/归一化电场定义式]]
+![[100 项目笔记/NTU/EE6303 电磁兼容设计/Chapter 1 射频干扰/归一化电场定义式]]
 
 因此，具有均匀电流的天线的归一化电场特性为，
 
