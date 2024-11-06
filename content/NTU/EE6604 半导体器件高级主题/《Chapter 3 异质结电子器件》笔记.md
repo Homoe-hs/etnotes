@@ -9,8 +9,13 @@ number headings: auto, first-level 1, max 5, contents ^toc, 1.1.
 
 >[!note] 期末试卷构成
 >分为 Part1（BJT）和 Part2（MOSFET）：Q 1 (a)，Q2 and Q3；
->Part3: Q1 (a) and Q4
+>Part3: Q1 (b) and Q4
 
+>[! tldr] Key Points of First class
+>Vegard's Law
+>Critical thickness calculation
+>band diagram
+>constructure of HBT
 
 # 1. 基础
 
@@ -22,7 +27,7 @@ number headings: auto, first-level 1, max 5, contents ^toc, 1.1.
 
 材料参数包括能带隙、晶格常数、热导率、熔点等。其中，[[带隙]]和[[晶格常数]]最为重要。
 
-### 1.1.1. 维加德定律
+### 1.1.1. 维加德定律 Vegard’s Law
 
 [[维加德定律]]是指对于三元化合物 AxB1-xC（其中 A 和 B 是同族元素（III 族或 V 族元素）），参数 P 可以表示为带隙 Eg 或[[晶格常数]]（LC），
 $$
@@ -87,7 +92,7 @@ $$
 
 ### 1.2.3. 临界厚度
 
-存在一个临界厚度 hc，低于该厚度生长的薄膜会发生应变，而不会出现失配位错（赝晶生长），在此之上，薄膜变得不受应变或松弛。与界面处失配位错的形成相关，临界厚度为，
+存在一个临界厚度 $h_{c}$，低于该厚度生长的薄膜会发生应变，而不会出现失配位错（赝晶生长），在此之上，薄膜变得不受应变或松弛。与界面处失配位错的形成相关，临界厚度为，
 $$
 h_{c}=\frac{b} {8 \pi( 1+v ) M} \left[ \operatorname{l n} \left( \frac{h_{c}} {b} \right)+1 \right]
 $$
@@ -131,12 +136,20 @@ $$
 
 ### 1.4.2. 金属/ $\ce{ AlGaAs }$ / $\ce{ GaAs }$
 
+>[! important]
+>可以拿这个能带图练一下手
+>
+
 ![[金属 AlGaAs  GaAs 能带结构1.png]]
 ![[金属 AlGaAs  GaAs 能带结构2.png]]
 ![[金属 AlGaAs  GaAs 能带结构3.png]]
 
 
 # 2. 异质结双极晶体管
+
+>[! reference]
+>“4.5 异质结双极型晶体管” (施敏和李明逵, p. 147)
+
 
 ## 2.1. 同质结 BJT 的局限性
 
@@ -151,19 +164,144 @@ $$
 
 [[基区输运系数]] $\alpha_{T}$ 为，
 $$
-\alpha
+\alpha_{T}={\frac{I_{C n}} {I_{E n}}} \approx{\frac{I_{C}} {I_{E n}}}=1-{\frac{W_{b n}^{2}} {2 L_{B}^{2}}}
+$$
+共基极电流增益 $\alpha_{0}$，
+$$
+\alpha_{0}=\frac{I_{C}} {I_{E}}=\frac{I_{C}} {I_{E n}}. \frac{I_{E n}} {I_{E}}=\alpha_{T}. \gamma=\left[ 1-\frac{W_{b n}^{2}} {2 L_{B}^{2}} \right]. \left[ 1-\frac{p_{E 0} D_{E} W_{b n}} {n_{B 0} D_{B} L_{E}} \right]
 $$
 
-## 2.2. 
+再代入共发射极增益 $\beta_{0}$,
+$$
+\beta_{0}=\frac{\alpha_{0}} {1-\alpha_{0}} \approx\frac{n_{B 0} D_{B} L_{E}} {p_{E 0} D_{E} W_{b n}}
+$$
+这里说明如果要 BJT 实现高增益，需要，
+1. 发射极重掺杂；
+2. 基极相对轻掺杂；
+3. 基极窄
 
+但是如此又会导致问题，
+1. 发射极重掺杂会导致发射极带隙减小，从而减小发射极注入而增加基极注入，得不偿失 （[[重掺杂效应]]）；
+2. 轻掺杂和窄基极会导致较大的基极电阻和更小的击穿电压。
 
+## 2.2. 补救
+
+主要的补救措施就是在 n 型发射极使用大带隙材料。该器件随后将成为异质结双极晶体管 (HBT)。 
+
+HBT 的主要优点是发射极效率高。HBT 还具有电路运行的高速和高频能力。
+
+## 2.3. 具有 n-AlGaAs 发射极和 p-GaAs 基极晶体管的 HBT
+
+![[具有 n-AlGaAs 发射极和 p-GaAs 基极晶体管的 HBT.png]]
+$$
+\beta_{0}= \frac{N_{E} D_{B} L_{E}} {N_{B} D_{E} W_{b n}} \, e^{\Delta E_{g} / k T}
+$$
+从 BJT 的共发射极增益再进一步推导，能看到 $\beta_{0}$ 和发射极与基极之间的带隙差有关。
+
+这意味着可以对基极进行大量掺杂并实现低基极电阻。还可以将底座做得更窄，以实现高速。因此，我们对高性能晶体管的所有要求都可以通过具有更大带隙发射极来满足。
+
+## 2.4. 可用的结构
+
+### 2.4.1. GaAs/AlGaAs HBT
+![[n-p-n HBT 结构的横截面示意图.png]]
+
+### 2.4.2. InGaAs/InP 和 InGaAs/InAlAs HBT
+
+优点在于：
+- 非常低的表面复合；
+- 比 $\ce{ GaAs }$ 更高的电子迁移率；
+- $550 \pu{ GHz }$ 的截止频率；
+- 强电场下的更高电子漂移速度；
+- 更高的击穿电压。
+
+### 2.4.3. $\ce{ Si }/\ce{ SiGe_{1-x}  }$ HBT
+
+优点在于，
+- 禁带宽度差可实现基区重掺杂而具有高速能力；
+- 表面复合电流少，低集电极电流的时候，电流增益仍然高。
+
+## 2.5. 进一步提高 HBT 性能的途径
+
+### 2.5.1. 发射极
+![[导带不连续.png]]
+在发射极主要关注上图中的导带不连续，这会导致电子需要通过热发射或者隧穿才能到达基极，从而导致发射极效率降低或者集电极电流减小。
+
+这个问题可以通过使用改进的结构来缓解，例如在 E-B 结附近使用具有渐变层的发射极。
+
+### 2.5.2. 基极
+
+![[有或无缓变层和有或无缓变基区的 HBT 能带图.png]]
+
+基区也可采用缓变分布, 使得基区的带隙由发射极一侧到集电极一侧逐步减小。存在一内建电场 $E_{bi}$ 准中性基区 (quasi-neutral base) ,少数载流子渡越时间降低, 增加了 HBT 的共射电流增益与截止频率。
+
+### 2.5.3. 集电极
+
+集电极我们主要考虑的是 **集电区渡越时间**和 **击穿电压**。采用特定的集电区掺杂，例如具有 $p^{-}$ 集电区和一层临近次集电极的 $p^{+}$ [[脉冲掺杂结构]]（pulse-doped）的 HBT。这样在维持集电区厚度的同时，能使得电子在大部分渡越时间内，可以维持导带低能谷的高迁移率（参考 [[Ridley-Watkins-Hilsun 机制]]），这种器件叫[[弹道集电区晶体管]]。
+
+![[弹道传输.png]]
 
 # 3. 调制掺杂场效应晶体管 (MODFET)
 
+[[MODFET]] 是异质结构的场效应器件。
 
->[! tldr] Key Points of First class
->Vegard's Law
->Critical thickness calculation
->band diagram
->constructure of HBT
->
+## 3.1. 结构
+
+MODFET 最有特点的结构在于栅极下方的异质结以及调制掺杂层。调制掺杂指的是，$\ce{ AlGaAs }$ 是掺杂的（$\sim 10^{18 }\pu{ cm-3 }$，称为 $d_{1}$ 层），但是其下面有一层极窄的 $\ce{ AlGaAs }$ 未掺杂（称为 $d_{0}$ 层），再下面又是一层未掺杂的 $\ce{ GaAs }$。调制掺杂的好处在于可以减少沟道中的杂志散射。
+
+![[MODFET.drawio.png]]
+
+源和漏与 $n^{+}\ce{ GaAs }$ 接触以构成欧姆接触；栅极则是与 $n^{+}\ce{ AlGaAs }$ 构成肖特基势垒；$d_{0}$ 层的作用主要是减少 $d_{1}$ 中的电离施主引起的[[库仑散射]]，从而提高电子迁移率；未掺杂的 $\ce{ GaAs }$ 主要是用来形成导电的沟道。
+
+### 3.1.1. 迁移率随温度的变化
+
+![[低电场条件下,调制掺杂的二维沟道与不同掺杂水平下的体 GaAs 中的电子迁移率的比较.png]]
+在低电场条件下，比较调制掺杂的 2D 沟道与不同掺杂水平下体 $\ce{ GaAs }$ 的迁移率随着温度的变化。可以看到，随着温度升高，三种材料的迁移率都在下降，这是[[声子散射]]的影响；随着温度降低，杂质散射逐渐主导，可以看到由于高密度的 2DEG 的屏蔽效应，电子的传导路径限制在小于 $10\pu{ nm }$ 的小截面内。
+
+## 3.2. 能带分析
+
+![[增强型 MODFET 的能带图.png|400]]
+能带图中，$q\varphi_{Bn}$ 为金属和宽带隙半导体的势垒高度，MODFET 的内建电势为，
+$$
+V_{P} = \dfrac{qN_{D}d_{1}^{2}}{2 \varepsilon_{s} }
+$$
+$N_{D}$ 为 $\ce{ AlGaAs }$ 的施主掺杂浓度；$d_{1}$ 为 $\ce{ AlGaAs }$ 的掺杂区厚度；$\varepsilon_{s}$ 为介电常数。
+
+MODFET 的关键工作参数为阈值电压 $V_{T}$，对应的状态是 $\ce{ GaAs }$ 表面的导带底与费米能级重叠（见图（b））。
+$$
+V_{\mathrm{T}} = \varphi_{\mathrm{B n}} \!-\! \frac{\Delta E_{\mathrm{c}}} {q} \!-\! V_{\mathrm{P}}.
+$$
+当 MODFET 开启的时候，栅极在异质界面处容性感应出电荷薄层 $n_{s}(y)$，类似与 MOSFET 的沟道电荷。
+$$
+n_{s} ( y ) \!=\! {\frac{C_{\mathrm{i}} \! \left[ V_{\mathrm{G}} \!-\! V_{\mathrm{T}} \!-\! V ( y ) \right]} {q}}.
+$$
+$$
+C_{\mathrm{i}} \!=\! \frac{\epsilon_{\mathrm{s}}} {d_{\mathrm{1}}+d_{\mathrm{0}}+\Delta d}
+$$
+## 3.3. 电流-电压分析
+
+一般电流公式为，
+$$
+I = {\frac{Z} {L}} \mu_{\mathrm{a}} C_{\mathrm{i}} \biggl[ \, ( V_{\mathrm{G}} \!-\! V_{\mathrm{T}} ) V_{\mathrm{D}} \!-\! {\frac{{V_{\mathrm{D}}}^{2}} {2}} \, \biggr]
+$$
+当线性区的时候，有 $V_{D}\ll V_{G}-V_{T}$，可简化为，
+$$
+I=\frac{Z} {L} \mu_{\mathrm{{n}}} C_{\mathrm{{i}}} ( V_{\mathrm{{o}}} \!-\! V_{\mathrm{{T}}} ) V_{\mathrm{{b}}}
+$$
+在饱和区夹断的时候，令 $n_{s}(y=L)=0$, 可得 $V_{Dsat} = V_{G}-V_{T}$，
+$$
+I = \frac{Z \mu_{\mathrm{{n}}} C_{\mathrm{{t}}}} {2 L} ( \hat{V}_{\mathrm{{0}}} \!-\! \hat{V}_{\mathrm{{T}}} )^{2} = \frac{Z \mu_{\mathrm{{n}}} \epsilon_{\mathrm{{s}}}} {2 L ( d_{\mathrm{{1}}} \!+\! d_{\mathrm{{o}}} \!+\! \Delta d )} ( V_{\mathrm{{0}}} \!-\! V_{\mathrm{{T}}} )^{2}
+$$
+在高速工作状态下，速度饱和区的电流为，
+$$
+I_{\mathrm{s u t}} = Z v_{\mathrm{s}} q n_{\mathrm{s}} \! \approx\! Z v_{\mathrm{s}} C_{\mathrm{i}} ( V_{\mathrm{G}} \!-\! V_{\mathrm{T}} )
+$$
+此时跨导为，
+$$
+g_{\mathrm{m}} \!=\! {\frac{\partial I_{\mathrm{s a t}}} {\partial V_{\mathrm{G}}}} \!=\! Z v_{\mathrm{s}} C_{\mathrm{i}}.
+$$
+## 3.4. 截止频率
+
+$$
+f_{\mathrm{T}} \!=\! \frac{g_{\mathrm{m}}} {2 \pi( \mathrm{t o t a l ~ c a p a c i t a n c e} )} \!=\! \frac{Z v_{s} C_{\mathrm{t}}} {2 \pi( Z L C_{\mathrm{t}} \!+\! C_{\mathrm{p}} )} \!=\! \frac{v_{s}} {2 \pi\Big( L \!+\! \dfrac{C_{\mathrm{p}}} {Z C_{\mathrm{t}}} \Big)}.
+$$
+$C_{P}$ 为截止电容。

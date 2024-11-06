@@ -4,5 +4,5 @@ aliases:
 tags: 
 ---
 $$
-I_{D}=\frac{k_{n}'}{2}\times\frac{W}{L}\times(V_{GS}-V_{T})^{2} \times (1+\lambda V_{DS})
+I_{D}=\frac{k_{n}'}{2}\frac{W}{L}(V_{GS}-V_{T})^{2}  (1+\lambda V_{DS})
 $$
