@@ -4,6 +4,9 @@ aliases:
 tags: 
 number headings: auto, first-level 1, max 5, contents ^toc, 1.1.
 ---
+>[! summary]
+>对电气接地的分析，就是将闭合回路建模为两个相同的导体，并且两个导体上的电阻和电感是相同的，由此来分析信号地在不同频率下产生的分压。
+
 首先区分一下电源地和信号地。电源地为故障电流提供回流路径，实现安全保护。它直接与大地相连。信号接地是信号电流的专用返回路径，并不与大地相连接。
 
 # 1. 电路的信号接地
@@ -20,24 +23,103 @@ number headings: auto, first-level 1, max 5, contents ^toc, 1.1.
 
 无论是安全保护还是信号返回，都不存在提供“0Ω”阻抗的“理想导体”。 在电气接地设计中必须考虑导体的非理想行为，以确保其满足预期目标。
 
-## 2.1. Exercise 1
+## 2.1. 精确的电路
+![[精确的电路.png]]
+在理论模型中，信号地是没有电阻的，实际上还是需要考虑，例如图中的蓝色电阻就是对信号地电阻的建模。可以看到，在电阻 $R_{L}$ 原本接地的地方，现在是有实际电压 $I\times R_{wire,blue}$。
 
-## 2.2. 环路电感的定义
+但是在 DC 中，$R_{wire,blue}$ 通常只有 $\pu{ m\Omega}$ 所以信号地的压降实际上 $\approx 0\pu{ V }$。
 
+## 2.2. Exercise 1
+
+“Exercise #1 : An AC signal source of 5 V is connected to a 100 $\Omega$ resistive load through two parallel conductors separated by air as shown. The copper conductors have diameter of 5 mm and length of 2 m. The centre-to-centre spacing between conductors is 20 mm. Electrical properties of copper: $\sigma = 5.8 \times 10^{7}\pu{ S/m }$ and $\mu = 4\pi \times 10^{-7}\pu{ H/m }$, respectively. Determine the voltage across the load at 50 Hz and 5 MHz.” (“EE6303 Lec6 electrical grounding”, p. 9)
+
+首先画出等效电路图。
+![[例题.png]]
+先计算在不同频率下的趋肤深度，并和半径相比较判断是否发生趋肤效应；
+随后计算在不同频率下的电感、电容值；并根据阻抗值进行分压，计算在 $R_{L}$ 上的分压即可。
+
+>[! note]
+>对于复数运算不熟的需要注意一下，
+>![[复数2.png]]
+>![[复数1.png]]
+>可以看一下应该如何处理容抗以及计算分压。
+>分压应该用极坐标形式
+
+
+
+电路回路的电阻是单个导体电阻的两倍，即导体之间没有电阻相互作用。但是电路回路的电感是自感和互感的合​​成电感，即导体之间存在电感相互作用。
+
+在低频时，回路阻抗主要是电阻且可以忽略；在高频时，回路阻抗主要是感抗并且不能被忽略。
+
+## 2.3. 部分电感
+
+前面，我们将两个平行导体的电感建模为一个总电感 $L_{loop}$，但是这样我们不能知道单独一个导体上的压降，因此需要建模成每个导体的部分自感 $L_{p}$ 和导体之间的部分互感 $M_{p}$ 来获得各个导体上的电压降。
+
+![[部分自感.png|200]]
+
+### 2.3.1. 环路电感的定义
+
+首先需要简单了解一下[[磁矢势]]，在这里磁矢势和电流方向一致，有，
+$$
+-\nabla^2 \vec{A} = \mu_0 \vec{J}
+$$
+磁通量密度是磁矢势的旋度，
+![[磁通量密度定义式]]
 对于一个闭合的环路，总磁通量为，
-$$
-\psi=\int_{s}\vec{B}\cdot d\vec{s}\quad \left[ \pu{Wb}\right]
-$$
-
+![[闭合环路总磁通量计算式]]
 闭合环路的电感为，
+![[闭合环路电感计算式]]
+闭合环路的电感又能写成磁矢势在包围闭合环路区域的轮廓 $c$ 上面的线积分。
 $$
-L_{loop} = \dfrac{\psi}{I}\quad \left[ \pu{H}\right]
+L_{l o o p}=\frac{\psi} {I}=\frac{\int_{s} \vec{B} \cdot d \vec{s}} {I} = \frac{\oint_{c} \vec{A} \cdot d \vec{l}} {I}
 $$
-## 2.3. 自偏感的定义
 
-## 2.4. 互偏感的定义
+### 2.3.2. 部分自感的定义
 
-## 2.5. Exercise 2
+根据闭合环路的电感的定义有，
+$$
+L_{l o o p}=\frac{\psi} {I}=\frac{\int_{s} \vec{B} \cdot d \vec{s}} {I}  = \frac{\oint_{c} \vec{A} \cdot d \vec{l}} {I}
+$$
+![[部分自感_1.png|200]]
+上图中红色的部分即为我们需要考虑的闭合回路，我们先考虑 $c_{i}$ 这以段导体，于是将上式沿着轮廓拆分。因为 $\vec{A}$ 垂直于左侧和右侧，因此线积分为 0，同时顶部则是因为趋近于无限远，所以有 $\vec{A}\to 0$。
+$$
+\begin{align}
+L_{pi} & = \frac{\oint_{c} \vec{A} \cdot d \vec{l}} {I} \\
+ & = \frac{\int_{c_{i}} \vec{A} \cdot d \vec{l}} {I}+\frac{\int_{left-side} \vec{A} \cdot d \vec{l}} {I}+\frac{\int_{right-side } \vec{A} \cdot d \vec{l}} {I}+\frac{\int_{top-side} \vec{A} \cdot d \vec{l}} {I} \\
+ & = \frac{\int_{c_{i}} \vec{A} \cdot d \vec{l}} {I}+0+0+0 \\
+ & = \frac{\int_{c_{i}} \vec{A} \cdot d \vec{l}} {I}
+\end{align}
+$$
+所以有，闭环轮廓线段的部分自感是穿过该线段与无穷远之间表面的磁通量与该线段上的电流之比。
+### 2.3.3. 部分互感的定义
+
+同理来定义部分互感，考虑 $c_{i}$ 对 $c_{j}$ 产生的部分互感。
+![[部分互感.png|200]]
+$$
+\begin{align}
+M_{pij} & = \frac{\oint_{c} \vec{A} \cdot d \vec{l}} {I} \\
+ & = \frac{\int_{c_{j}} \vec{A} \cdot d \vec{l}} {I}+\frac{\int_{left-side} \vec{A} \cdot d \vec{l}} {I}+\frac{\int_{right-side } \vec{A} \cdot d \vec{l}} {I}+\frac{\int_{down-side} \vec{A} \cdot d \vec{l}} {I} \\
+ & = \frac{\int_{c_{j}} \vec{A} \cdot d \vec{l}} {I}+0+0+0 \\
+ & = \frac{\int_{c_{j}} \vec{A} \cdot d \vec{l}} {I}
+\end{align}
+$$
+闭环两段导体之间的部分互感是穿过段 j 和无穷远之间表面的段 i 上的电流所产生的磁通量与段 i 上的电流的比值。
+
+### 2.3.4. 环路电感、部分自感和部分互感之间的关系
+![[环路电感之间的关系.png]]
+所以对于一段闭合回路，有导体 1 的部分自感和 1 对 2 的部分互感，以及导体 2 的部分自感和 2 对 1 的部分互感。
+
+所以闭合回路两端的电压差来自于 $L_{loop}$，$V_{L}-V_{S} =V_{loop}=j\omega L_{loop}I$
+![[闭合回路两端的电压差.png]]
+我们假设两端导线的部分自感和部分互感在大小上相等。可以有，$V_{s} = j\omega L_{p_{1}}I-j\omega M_{p_{21}}I +V_{L}+j\omega L_{p_{2}}I-j\omega M_{p_{12}}I$，再进一步化简有，$V_{S}-V_{L} = j\omega (2L_{p}-2M_{p})I$，有 $L_{loop} = 2(L_{p}-M_{p})$。
+
+所以我们能将闭合回路的两段导体的各自的电感建模为 $L_{1}$ 和 $L_{2}$，且有 $L_{1}=L_{2}=L_{p}-M_{p}$
+
+### 2.3.5. Exercise 2
+
+“Exercise #2: Refer to Exercise #1, determine the voltage drops on the upper and lower conductors at 50 Hz and 5 MHz.” (“EE6303 Lec6 electrical grounding”, p. 22)
+
+流程还是一样，只不过这次建模是将导体的电阻和电感在两个导体上分开计算，用来计算在上导体和下导体的分压。
 
 # 3. 实际实施
 
@@ -47,8 +129,6 @@ $$
 
 >[! important] 
 >信号始终沿着阻抗最小的路径返回。
-
-
 
 ## 3.2. 高频信号返回路径
 

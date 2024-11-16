@@ -6,9 +6,9 @@ number headings: auto, first-level 1, max 5, contents ^toc, 1.1.
 ---
 >[! note]
 >知道是什么就行，能够自己叙述出来。
+>最好列思维导图，梳理每个部分有哪些内容
 
 # 1. 设计复杂性
-
 
 ## 1.1. 设计抽象层级
 ![[设计抽象层级.png|300]]
