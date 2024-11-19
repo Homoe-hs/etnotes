@@ -3,5 +3,5 @@ aliases: []
 tags:
 ---
 $$
-I_{C}=A_{E}J_{C_{0}}\exp{(\dfrac{qV_{BE}}{kT})}
+I_{C}=A_{E}J_{C0}\exp{(\dfrac{qV_{BE}}{kT})}
 $$
