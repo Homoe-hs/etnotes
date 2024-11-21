@@ -28,4 +28,4 @@ $$
 I_{D} \,=\, k_{n}^{\prime} \, \frac{W} {L} \Biggl[ ( V_{G S}-V_{T} ) V_{D S}-\frac{V_{D S}} {2}^{2} \Biggr] \,=\, k_{n} \Biggl[ ( V_{G S}-V_{T} ) V_{D S}-\frac{V_{D S}} {2}^{2} \Biggr]
 $$
 从这里可以导出一个工艺跨导参数，
-![[工艺跨导参数]]
+![[工艺跨导参数计算式]]
