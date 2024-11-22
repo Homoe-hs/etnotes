@@ -64,6 +64,7 @@ k 是 MOS 管相对于单位 MOS 管的大小。
 例如，PDN 是 3 个串联的 NMOS，则每个的尺寸 k 需要为 3，PDN 的电阻 $\dfrac{R}{3}+\dfrac{R}{3}+\dfrac{R}{3}$ 才能等于 R。
 
 ## 1.6. Elmore 延时模型
+
 ![[RC.png]]
 有延时为，
 $$
