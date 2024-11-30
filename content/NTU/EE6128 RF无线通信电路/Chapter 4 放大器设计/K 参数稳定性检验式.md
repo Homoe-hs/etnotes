@@ -1,6 +1,7 @@
 ---
-aliases: []
-tags:
+aliases: 
+tags: 
+对象类型: 公式
 ---
 当有，
 $$
