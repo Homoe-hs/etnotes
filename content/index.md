@@ -39,6 +39,7 @@ tags:
 
 | 课程         | 类型            | 时间/DDL                         | 备注                                                                   |
 | ---------- | ------------- | ------------------------------ | -------------------------------------------------------------------- |
+| 晶圆         | quiz 1        | 2025 年 2 月 24 日                |                                                                      |
 | 集成电路技术     | quiz 1        |                                |                                                                      |
 | 集成电路技术     | quiz 2        |                                |                                                                      |
 | 集成电路技术     | assignment 1  |                                |                                                                      |
@@ -47,7 +48,7 @@ tags:
 | 区块链        | quiz          | 2025 年 4 月 4 日星期五 6:30-7:30    | 15 MCQ                                                               |
 | VLSI       | quiz 2（15%）   | 2025 年 4 月 15 日晚 8:30 - 9:20   | Assessment: 5 short questions  (Cover topics from week 8 to week 11) |
 | VLSI       | homework（10%） | 2025 年 3 月 04 日到 3 月 18 日      | Assessment: 5 questions  (Cover topics from week 5 to week 7)        |
-| VLSI       | quiz1（15%）    | 2025 年 2 月 18 日晚 8:30 - 9:20   | 5 short questions (Cover topics from week 1 to week 4)               |
+| VLSI       | quiz1（15%）    | 2025 年 2 月 25 日晚 8:30 - 9:20   | 5 short questions (Cover topics from week 1 to week 4)               |
 | ~~EE6303~~ | ~~quiz2~~     | ~~11 月 16 日（周六）早 10:00-12:00~~ | ~~LT24 (A 组) LT25（B 组）；3 个问题，分别覆盖接地、串扰和屏蔽~~                          |
 | ~~EE6306~~ | ~~quiz2~~     | ~~11 月 11 日~~                  | ~~闭卷，多个简答，无选择~~                                                      |
 | ~~EE6604~~ | ~~quiz~~      | ~~11 月 9 日（周六）晚8:30-9:15~~     | ~~半开卷，只允许纸质材料~~                                                      |
