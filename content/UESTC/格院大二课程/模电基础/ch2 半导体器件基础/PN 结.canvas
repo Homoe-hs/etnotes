@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"type":"file","file":"400归档/课程/格院大二课程/模电基础/ch2 半导体器件基础/PN结.md","id":"f40614d1b4fb57ee","x":-777,"y":-220,"width":400,"height":262},
+		{"type":"file","file":"400归档/课程/格院大二课程/模电基础/ch2 半导体器件基础/PN 结的形成.md","id":"34b4778757fdc8df","x":-777,"y":136,"width":400,"height":586},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/器件/雪崩击穿.md","id":"16019bd4ee030c2f","x":-194,"y":-722,"width":400,"height":404},
+		{"type":"file","file":"400归档/课程/格院大二课程/模电基础/ch4 二极管/齐纳击穿.md","id":"95696633412dea68","x":-194,"y":-287,"width":400,"height":400},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/器件/结电容.md","id":"c22c8d4b216a1c1a","x":-194,"y":151,"width":400,"height":400},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/器件/势垒电容.md","id":"18efa207c8bbcb36","x":378,"y":54,"width":400,"height":325},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/器件/扩散电容.md","id":"28a3dfccc3f1ecac","x":378,"y":418,"width":400,"height":304}
+	],
+	"edges":[
+		{"id":"83f9bf09d51a6ab6","fromNode":"f40614d1b4fb57ee","fromSide":"right","toNode":"16019bd4ee030c2f","toSide":"left"},
+		{"id":"729ed4598457f496","fromNode":"f40614d1b4fb57ee","fromSide":"right","toNode":"95696633412dea68","toSide":"left"},
+		{"id":"a1d4cfcc6b447fa3","fromNode":"f40614d1b4fb57ee","fromSide":"right","toNode":"c22c8d4b216a1c1a","toSide":"left"},
+		{"id":"6b73935d46c785bd","fromNode":"34b4778757fdc8df","fromSide":"top","toNode":"f40614d1b4fb57ee","toSide":"bottom"},
+		{"id":"db0f99ad03c5f282","fromNode":"c22c8d4b216a1c1a","fromSide":"right","toNode":"18efa207c8bbcb36","toSide":"left"},
+		{"id":"60a02fb3274175d0","fromNode":"c22c8d4b216a1c1a","fromSide":"right","toNode":"28a3dfccc3f1ecac","toSide":"left"}
+	]
+}

@@ -1,0 +1,10 @@
+{
+	"nodes":[
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/EPMF课程/项目管理/DFM/可制造性设计.md","id":"56ac1290774e23bd","x":-115,"y":-280,"width":400,"height":400},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/EPMF课程/项目管理/DFM/实现DFM的技巧.md","id":"57908254e78156c8","x":479,"y":-280,"width":400,"height":400},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/EPMF课程/项目管理/DFM/可持续性设计.md","id":"953d0dcf92af7b27","x":-115,"y":227,"width":400,"height":334}
+	],
+	"edges":[
+		{"id":"87268ce48d21134d","fromNode":"56ac1290774e23bd","fromSide":"right","toNode":"57908254e78156c8","toSide":"left"}
+	]
+}

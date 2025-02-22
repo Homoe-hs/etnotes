@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"defea0f838ba86a4","x":954,"y":-520,"width":400,"height":495,"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/器件/晶闸管/双向晶闸管的结构.md"},
+		{"id":"4375b6a9d269fd4f","x":954,"y":17,"width":400,"height":430,"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/器件/晶闸管/双向晶闸管的符号.md"},
+		{"id":"b61277f155ddc32b","x":173,"y":-143,"width":400,"height":320,"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/器件/晶闸管/双向晶闸管.md"},
+		{"id":"fb0fea94caed7c2b","x":173,"y":318,"width":400,"height":992,"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/器件/晶闸管/双向晶闸管的输出特性.md"}
+	],
+	"edges":[
+		{"id":"9ddf272ef3da2a12","fromNode":"b61277f155ddc32b","fromSide":"right","toNode":"defea0f838ba86a4","toSide":"left"},
+		{"id":"2a0a0add236484a5","fromNode":"b61277f155ddc32b","fromSide":"right","toNode":"4375b6a9d269fd4f","toSide":"left"},
+		{"id":"09bb6f87f67944af","fromNode":"b61277f155ddc32b","fromSide":"bottom","toNode":"fb0fea94caed7c2b","toSide":"top"}
+	]
+}

@@ -1,0 +1,41 @@
+{
+	"nodes":[
+		{"id":"3a577af01af43590","type":"text","text":"结击穿与结终端技术（半导体的击穿）\n器件为什么会发生击穿\n如何避免器件发生提前的击穿？实现器件本身最高的耐压值\neg. 场板技术、场限环技术、变掺杂技术","x":-476,"y":-324,"width":347,"height":175},
+		{"id":"7a8c0a459991f0ef","type":"file","file":"200 文献笔记/线下课程/UESTC/格院大四上课程/功率半导体课程/第二章 结击穿/碰撞电离.md","x":103,"y":162,"width":400,"height":400},
+		{"id":"adff7e1c749f65bb","type":"file","file":"200 文献笔记/线下课程/UESTC/格院大四上课程/功率半导体课程/第二章 结击穿/理想功率整流器的特性.md","x":103,"y":-378,"width":400,"height":457},
+		{"id":"5cedc4b70e5ff774","type":"file","file":"200 文献笔记/线下课程/UESTC/格院大二课程/模电基础/ch4 二极管/齐纳击穿.md","x":668,"y":476,"width":400,"height":380},
+		{"id":"589ea22de61e4b1d","type":"text","text":"$$\ne^{\\frac{t^{ox}}{\\hbar}\\sqrt{ 2m_{n}^{*}\\phi_{ox} }}\n$$\n","x":1168,"y":628,"width":166,"height":76},
+		{"id":"1c8b2dcf9790cd7e","type":"file","file":"200 文献笔记/线下课程/UESTC/格院大三下课程/PE课程/器件/雪崩击穿.md","x":668,"y":152,"width":400,"height":147},
+		{"id":"9588060b1acb158b","type":"file","file":"200 文献笔记/线下课程/UESTC/格院大四上课程/功率半导体课程/第二章 结击穿/碰撞电离系数.md","x":1613,"y":89,"width":400,"height":146},
+		{"id":"492a83d181710fb2","type":"text","text":"$$\n\\alpha_{n}=A_{n}\\cdot e^{-\\frac{B_{n}}{E}}\n$$","x":1613,"y":259,"width":252,"height":93},
+		{"id":"ad5948f7914c736a","type":"file","file":"200 文献笔记/线下课程/UESTC/格院大四上课程/功率半导体课程/第二章 结击穿/雪崩击穿发生原因.md","x":1134,"y":35,"width":400,"height":380},
+		{"id":"09acd8f817129784","type":"text","text":"$$\n\\int ^{x_{d}}_{0}\\alpha_{p}\\exp{[-\\int _{0}^{x}(\\alpha_{p}-\\alpha_{n}) \\, \t{d}x ]} \\, \t{d}x \n$$","x":1613,"y":375,"width":374,"height":101},
+		{"id":"61b5bbf49a70450b","type":"file","file":"200 文献笔记/线下课程/UESTC/格院大四上课程/功率半导体课程/第二章 结击穿/热击穿.md","x":668,"y":900,"width":400,"height":247},
+		{"id":"1f81c5f2b0cc42e3","type":"text","text":"## 2.1 碰撞电离和雪崩击穿","x":-331,"y":440,"width":226,"height":73},
+		{"id":"c35f8bf590559f03","type":"text","text":"## 2.2 平面与平面结的击穿","x":-331,"y":1465,"width":251,"height":73},
+		{"id":"9003d095f373d081","type":"text","text":"耗尽区往往会向轻掺杂的区扩散","x":60,"y":1253,"width":250,"height":60},
+		{"id":"3eeae6bf17da92b6","type":"text","text":"曲率结与平面结的各自临界场关系","x":60,"y":1502,"width":250,"height":60},
+		{"id":"7e225c93bec80af6","type":"text","text":"穿通结：梯形的场分布（梯形所围成的面积就是 BV 值击穿电压值）","x":60,"y":1380,"width":322,"height":56},
+		{"id":"09e0006d870308d7","type":"text","text":"## 2.4 结终端技术（器件表面）","x":-330,"y":1864,"width":250,"height":73},
+		{"id":"3c06ca60dea5da43","type":"text","text":"revers blocking","x":60,"y":1719,"width":250,"height":60},
+		{"id":"711b16cb2b77872b","type":"text","text":"电容效应","x":493,"y":1714,"width":250,"height":65},
+		{"id":"ecacb85fee703fb1","type":"file","file":"400 笔记归档/附件/IMG_20230907_104504_edit_168917177598182.jpg","x":37,"y":1863,"width":345,"height":400},
+		{"id":"6c014706e9645789","type":"file","file":"400 笔记归档/附件/IMG_20230907_105326_edit_169024726884624.jpg","x":10,"y":2344,"width":400,"height":290},
+		{"id":"77f4bafe7c55e5c4","type":"text","text":"基本思想就是在耗尽区引入异性电荷。\n\n## 为什么引入异性电荷有效果呢？\n\n引入异性电荷之后，p+端电场减小，n-端电场增加。在电压不变的情况下，BV 减小。\n\n","x":493,"y":2333,"width":250,"height":312},
+		{"id":"d9878089c63927bc","type":"text","text":"## RFP 阻性场板","x":45,"y":2743,"width":243,"height":37},
+		{"id":"36bef0c605303f0d","type":"text","text":"### 3.2.1 静态阻挡特性","x":-324,"y":3252,"width":237,"height":62},
+		{"id":"2348e3f4f14c0e2c","type":"text","text":"禁带宽度越大，一般[[碰撞电离系数]]越小，也就越难击穿。","x":45,"y":2930,"width":250,"height":86},
+		{"id":"08d571177208a6dd","type":"text","text":"#### 1. Blocking capability\n\n$$\n\\int ^{W}_{0} A\\cdot E(x)^{7} \\, \t{d}x \n$$","x":5,"y":3107,"width":330,"height":145},
+		{"id":"1c5501944540d51a","type":"text","text":"#### 2. 泄露电流\n\n$$\nJ_{L}=J_{SC}+J_{DL}\n$$\n\n$J_{L}$ 泄漏电流；$L_{SC}$ 空间电荷产生的泄漏电流；$L_{DL}$ 扩散泄漏电流\n","x":5,"y":3284,"width":330,"height":145},
+		{"id":"cf8c0b0d06f7c756","type":"text","text":"结定律\n\n","x":5,"y":3690,"width":112,"height":60},
+		{"id":"5f1dfd0023e6668b","type":"text","text":"在耗尽区电子空穴对的产生率=本征载流子浓度/空间电荷区的寿命\n\n$$\n U=\\frac{n_{i}}{2\\tau_{SC}}\n$$\n","x":5,"y":3491,"width":290,"height":148},
+		{"id":"74a1b973317eaa99","type":"text","text":"双极器件和单极器件的区别在于双极器件的电导效应","x":5,"y":3831,"width":269,"height":76},
+		{"id":"777c6b636e169fb5","type":"file","file":"200 文献笔记/线下课程/UESTC/格院大四上课程/功率半导体课程/第二章 结击穿/实际功率整流器的特性.md","x":668,"y":-349,"width":400,"height":400}
+	],
+	"edges":[
+		{"id":"f90402459ca83485","fromNode":"adff7e1c749f65bb","fromSide":"right","toNode":"777c6b636e169fb5","toSide":"left"},
+		{"id":"5c26c6647d38b756","fromNode":"589ea22de61e4b1d","fromSide":"left","toNode":"5cedc4b70e5ff774","toSide":"right"},
+		{"id":"f20a11edaff76a1a","fromNode":"ad5948f7914c736a","fromSide":"left","toNode":"1c8b2dcf9790cd7e","toSide":"right"},
+		{"id":"1405e778928d99d7","fromNode":"9588060b1acb158b","fromSide":"left","toNode":"ad5948f7914c736a","toSide":"right"}
+	]
+}

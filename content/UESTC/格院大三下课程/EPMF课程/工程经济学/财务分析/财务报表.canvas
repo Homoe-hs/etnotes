@@ -1,0 +1,20 @@
+{
+	"nodes":[
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/EPMF课程/工程经济学/财务分析/财务报表的类型.md","id":"6bf053c2646a1eb1","x":1994,"y":-95,"width":400,"height":708},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/EPMF课程/工程经济学/财务分析/财务报表.md","id":"a808af82d142097d","x":1492,"y":120,"width":400,"height":278},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/EPMF课程/工程经济学/财务分析/财务分析.md","id":"879ed3ae0525dc53","x":1001,"y":106,"width":400,"height":306},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/EPMF课程/工程经济学/财务分析/年度报告.md","id":"b639172f472d2220","x":1492,"y":432,"width":400,"height":794},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/EPMF课程/工程经济学/财务分析/资产负债表/资产负债表.canvas","id":"9f7b3cf93694344b","x":2617,"y":-438,"width":400,"height":400},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/EPMF课程/工程经济学/财务分析/损益表/损益表.canvas","id":"76d1e5f3c4fab5e2","x":2617,"y":59,"width":400,"height":400},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/EPMF课程/工程经济学/财务分析/现金流量表/现金流量表.canvas","id":"2f83f93694ebcf90","x":2617,"y":562,"width":400,"height":400},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/EPMF课程/工程经济学/财务分析/比率/比率（公司财务）.canvas","id":"996f2e9bd5311bd3","x":1994,"y":762,"width":400,"height":400}
+	],
+	"edges":[
+		{"id":"ac715dbfa1e97b3f","fromNode":"879ed3ae0525dc53","fromSide":"right","toNode":"a808af82d142097d","toSide":"left"},
+		{"id":"36e3ba8758df9079","fromNode":"a808af82d142097d","fromSide":"right","toNode":"6bf053c2646a1eb1","toSide":"left"},
+		{"id":"31f280709e17b1f8","fromNode":"6bf053c2646a1eb1","fromSide":"right","toNode":"9f7b3cf93694344b","toSide":"left"},
+		{"id":"d577524d8b59376e","fromNode":"6bf053c2646a1eb1","fromSide":"right","toNode":"76d1e5f3c4fab5e2","toSide":"left"},
+		{"id":"37cbae97fafb63d1","fromNode":"6bf053c2646a1eb1","fromSide":"bottom","toNode":"996f2e9bd5311bd3","toSide":"top"},
+		{"id":"c2fed0aa66aa0634","fromNode":"6bf053c2646a1eb1","fromSide":"right","toNode":"2f83f93694ebcf90","toSide":"left"}
+	]
+}

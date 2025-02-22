@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/EPMF课程/工程经济学/财务分析/现金流量表/现金流量表.md","id":"f721c5cdf7c908f0","x":-562,"y":-474,"width":400,"height":350},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/EPMF课程/工程经济学/财务分析/现金流量表/现金流量表的作用.md","id":"af27f922b59db28a","x":-1135,"y":-890,"width":400,"height":591},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/EPMF课程/工程经济学/财务分析/现金流量表/现金流量表的局限.md","id":"d640979971123de1","x":-1135,"y":-253,"width":400,"height":361},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/EPMF课程/工程经济学/财务分析/现金流量表/现金流量表的构成.md","id":"7a2289487a6f447e","x":-16,"y":-610,"width":400,"height":623}
+	],
+	"edges":[
+		{"id":"3c166aa069031e53","fromNode":"f721c5cdf7c908f0","fromSide":"right","toNode":"7a2289487a6f447e","toSide":"left"},
+		{"id":"060b354a2d0e97fb","fromNode":"f721c5cdf7c908f0","fromSide":"left","toNode":"d640979971123de1","toSide":"right"},
+		{"id":"14be027be1de07e7","fromNode":"f721c5cdf7c908f0","fromSide":"left","toNode":"af27f922b59db28a","toSide":"right"}
+	]
+}

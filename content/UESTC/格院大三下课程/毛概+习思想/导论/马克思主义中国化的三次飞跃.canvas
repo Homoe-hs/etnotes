@@ -1,0 +1,27 @@
+{
+	"nodes":[
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/导论/马克思主义中国化.md","id":"11019cfbe44a9b94","x":-125,"y":-615,"width":400,"height":491,"color":"3"},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/导论/马克思主义中国化的必要性.md","id":"fbd376f458835ff3","x":-423,"y":-1183,"width":491,"height":369,"color":"3"},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/导论/马克思主义中国化的可能性.md","id":"b5f52ac5453e3632","x":115,"y":-1267,"width":491,"height":453,"color":"3"},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/导论/习近平新时代中国特色社会主义思想的历史进程.md","id":"204f4126d0e1c318","x":1143,"y":-99,"width":469,"height":281,"color":"3"},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/导论/马克思主义中国化的成果.md","id":"b6bbe97a73a14c4b","x":509,"y":528,"width":400,"height":311,"color":"2"},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/导论/马克思主义中国化的历史进程.md","id":"f43b95f907a468f1","x":509,"y":-488,"width":411,"height":237,"color":"3"},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/导论/毛泽东思想的历史进程.md","id":"fd04a3ace87b8558","x":1143,"y":-897,"width":469,"height":282,"color":"3"},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/导论/中国特色社会理论体系的历史进程.md","id":"7da56df15130f080","x":1143,"y":-524,"width":469,"height":310,"color":"3"},
+		{"type":"text","text":"# 马克思主义中国化的三次飞跃","id":"5b7000e957e289e4","x":-580,"y":-421,"width":315,"height":103},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/导论/马克思主义中国化的内涵.md","id":"0c8d1b4cfb480dd1","x":488,"y":-55,"width":453,"height":414,"color":"2"},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/导论/马克思主义中国化时代化理论成果之间的关系.md","id":"1e4119e45be8596a","x":1143,"y":513,"width":469,"height":341,"color":"2"}
+	],
+	"edges":[
+		{"id":"22216449af425fd7","fromNode":"5b7000e957e289e4","fromSide":"right","toNode":"11019cfbe44a9b94","toSide":"left"},
+		{"id":"9be0fce7c54c6ec6","fromNode":"11019cfbe44a9b94","fromSide":"top","toNode":"fbd376f458835ff3","toSide":"bottom"},
+		{"id":"c7de2d80bfafa400","fromNode":"11019cfbe44a9b94","fromSide":"top","toNode":"b5f52ac5453e3632","toSide":"bottom"},
+		{"id":"5aeb5da3860ce6e8","fromNode":"11019cfbe44a9b94","fromSide":"right","toNode":"f43b95f907a468f1","toSide":"left"},
+		{"id":"88cd7ef593be757f","fromNode":"f43b95f907a468f1","fromSide":"right","toNode":"fd04a3ace87b8558","toSide":"left","label":"第一次飞跃"},
+		{"id":"6dc8ae11dd491dce","fromNode":"f43b95f907a468f1","fromSide":"right","toNode":"7da56df15130f080","toSide":"left","label":"第二次飞跃"},
+		{"id":"7692d0413a2751c1","fromNode":"f43b95f907a468f1","fromSide":"right","toNode":"204f4126d0e1c318","toSide":"left","label":"第三次飞跃"},
+		{"id":"80d2c30f5a561160","fromNode":"11019cfbe44a9b94","fromSide":"bottom","toNode":"b6bbe97a73a14c4b","toSide":"left"},
+		{"id":"6976236f7f139513","fromNode":"b6bbe97a73a14c4b","fromSide":"right","toNode":"1e4119e45be8596a","toSide":"left"},
+		{"id":"78b7f36aaf25793f","fromNode":"11019cfbe44a9b94","fromSide":"right","toNode":"0c8d1b4cfb480dd1","toSide":"left"}
+	]
+}

@@ -1,0 +1,36 @@
+{
+	"nodes":[
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/毛泽东思想/社会主义改造理论/党在过渡时期的总路线.md","id":"51acfd18ae6989a1","x":139,"y":191,"width":417,"height":262,"color":"3"},
+		{"type":"text","text":"# 社会主义改造理论","id":"0cc10c389d9f2abe","x":-318,"y":-15,"width":202,"height":104},
+		{"type":"text","text":"1949-1956","id":"c902254109eabcd9","x":-290,"y":-115,"width":146,"height":60},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/毛泽东思想/社会主义改造理论/三大改造.md","id":"bb8de9b036ff57e2","x":736,"y":206,"width":400,"height":233,"color":"3"},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/毛泽东思想/社会主义改造理论/党在过渡时期的总路线的依据.md","id":"90ad71121755778d","x":75,"y":542,"width":545,"height":362,"color":"3"},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/毛泽东思想/社会主义改造理论/新民主主义社会的经济成分.md","id":"33f00e9bbbb1dea1","x":736,"y":-514,"width":512,"height":456,"color":"3"},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/毛泽东思想/社会主义改造理论/农业的社会主义改造.md","id":"047526868858c7aa","x":1387,"y":-514,"width":641,"height":538,"color":"3"},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/毛泽东思想/社会主义改造理论/手工业的社会主义改造.md","id":"23bdaf3c4be71a5a","x":1387,"y":82,"width":641,"height":478,"color":"3"},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/毛泽东思想/社会主义改造理论/资本主义工商业的社会主义改造.md","id":"3d81f717e38eb2af","x":1387,"y":695,"width":641,"height":421,"color":"2"},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/毛泽东思想/社会主义改造理论/对资本主义工商业实行和平赎买的必要性.md","id":"45dd6fc2d46aad83","x":2189,"y":657,"width":400,"height":496,"color":"2"},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/毛泽东思想/社会主义改造理论/对资本主义工商业实行和平赎买的可能性.md","id":"df80b8de23aafef9","x":2189,"y":1179,"width":400,"height":491,"color":"2"},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/毛泽东思想/社会主义改造理论/社会主义改造的历史经验.md","id":"db2cf3b78a22e356","x":1483,"y":1225,"width":449,"height":354,"color":"2"},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/毛泽东思想/社会主义改造理论/确立社会主义基本制度的重大意义.md","id":"02c20f346618d210","x":662,"y":969,"width":661,"height":513,"color":"2"},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/毛泽东思想/社会主义改造理论/社会主义基本制度确立的标志.md","id":"834fb26e4516fe5d","x":148,"y":1062,"width":400,"height":327,"color":"2"},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/毛泽东思想/社会主义改造理论/新民主主义社会性质和特点.md","id":"8e89034c8ecbd30b","x":126,"y":-608,"width":494,"height":645,"color":"3"},
+		{"id":"cbafae979ce0e32d","x":736,"y":542,"width":400,"height":400,"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/毛泽东思想/社会主义改造理论/党在过渡时期的总路线的提出.md"}
+	],
+	"edges":[
+		{"id":"09ff02b8a645cfdd","fromNode":"0cc10c389d9f2abe","fromSide":"right","toNode":"8e89034c8ecbd30b","toSide":"left"},
+		{"id":"11c730ff30a0740c","fromNode":"90ad71121755778d","fromSide":"top","toNode":"51acfd18ae6989a1","toSide":"bottom"},
+		{"id":"38be1b968a71b75a","fromNode":"0cc10c389d9f2abe","fromSide":"right","toNode":"51acfd18ae6989a1","toSide":"left"},
+		{"id":"58efe64368ebc384","fromNode":"51acfd18ae6989a1","fromSide":"right","toNode":"bb8de9b036ff57e2","toSide":"left"},
+		{"id":"e8f8ca3b9aa828d5","fromNode":"bb8de9b036ff57e2","fromSide":"right","toNode":"047526868858c7aa","toSide":"left"},
+		{"id":"89660e7cc5bd655f","fromNode":"bb8de9b036ff57e2","fromSide":"right","toNode":"23bdaf3c4be71a5a","toSide":"left"},
+		{"id":"0ede5137e09a1120","fromNode":"45dd6fc2d46aad83","fromSide":"left","toNode":"3d81f717e38eb2af","toSide":"right"},
+		{"id":"93fda02ba8ba4180","fromNode":"df80b8de23aafef9","fromSide":"left","toNode":"3d81f717e38eb2af","toSide":"right"},
+		{"id":"dd5af715ed3856b9","fromNode":"3d81f717e38eb2af","fromSide":"bottom","toNode":"db2cf3b78a22e356","toSide":"top"},
+		{"id":"886aff86aa46e4c0","fromNode":"bb8de9b036ff57e2","fromSide":"right","toNode":"3d81f717e38eb2af","toSide":"left"},
+		{"id":"e45055e4278fa398","fromNode":"8e89034c8ecbd30b","fromSide":"right","toNode":"33f00e9bbbb1dea1","toSide":"left"},
+		{"id":"069957a994317aea","fromNode":"0cc10c389d9f2abe","fromSide":"right","toNode":"834fb26e4516fe5d","toSide":"left"},
+		{"id":"86700dfcdb4ffc46","fromNode":"834fb26e4516fe5d","fromSide":"right","toNode":"02c20f346618d210","toSide":"left"},
+		{"id":"8559938274382b19","fromNode":"cbafae979ce0e32d","fromSide":"top","toNode":"51acfd18ae6989a1","toSide":"bottom"}
+	]
+}

@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/中国特色社会主义理论体系/科学发展观/科学发展观的科学内涵.md","id":"a881a863955ef805","x":252,"y":-455,"width":418,"height":294,"color":"2"},
+		{"type":"text","text":"# 科学发展观","id":"5e4b459abdf5fab9","x":-171,"y":-49,"width":234,"height":60},
+		{"id":"2506f24946da37bd","x":252,"y":-114,"width":418,"height":347,"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/中国特色社会主义理论体系/科学发展观/科学发展观的主要内容.md"},
+		{"id":"ed8c063ba281ada9","x":864,"y":-361,"width":414,"height":400,"color":"2","type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/中国特色社会主义理论体系/科学发展观/发展社会主义民主政治.md"},
+		{"id":"e487510fc3586161","x":864,"y":87,"width":519,"height":360,"color":"2","type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/中国特色社会主义理论体系/科学发展观/全面提高党的建设科学化水平.md"}
+	],
+	"edges":[
+		{"id":"d0a630c51ed66e96","fromNode":"5e4b459abdf5fab9","fromSide":"right","toNode":"a881a863955ef805","toSide":"left"},
+		{"id":"c65aff4278c0bfc7","fromNode":"5e4b459abdf5fab9","fromSide":"right","toNode":"2506f24946da37bd","toSide":"left"},
+		{"id":"24b4588e9abb95ec","fromNode":"2506f24946da37bd","fromSide":"right","toNode":"ed8c063ba281ada9","toSide":"left"},
+		{"id":"2655334d6857390a","fromNode":"2506f24946da37bd","fromSide":"right","toNode":"e487510fc3586161","toSide":"left"}
+	]
+}

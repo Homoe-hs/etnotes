@@ -1,0 +1,33 @@
+{
+	"nodes":[
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/EPMF课程/工程经济学/财务分析/比率/比率（公司财务）.md","id":"9741684d0b1a3c16","x":-936,"y":-205,"width":400,"height":466},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/EPMF课程/工程经济学/财务分析/比率/资产管理比率.md","id":"b9b1fb0ba4f09023","x":-1491,"y":-615,"width":400,"height":290},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/EPMF课程/工程经济学/财务分析/比率/流动性比率.md","id":"45e5a6585a8016ff","x":-1491,"y":395,"width":400,"height":267},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/EPMF课程/工程经济学/财务分析/比率/应收账款周转率.md","id":"c7bfeee28fd331d6","x":-2063,"y":-1030,"width":400,"height":332},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/EPMF课程/工程经济学/财务分析/比率/存货周转率.md","id":"5e156700ce040fe6","x":-2063,"y":-636,"width":400,"height":332},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/EPMF课程/工程经济学/财务分析/比率/营运资金数.md","id":"8756fd160a40c427","x":-2063,"y":-236,"width":400,"height":331},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/EPMF课程/工程经济学/财务分析/比率/速动比率.md","id":"70380008aaebf95c","x":-2063,"y":151,"width":400,"height":378},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/EPMF课程/工程经济学/财务分析/比率/流动比率.md","id":"35c9e77edd360c05","x":-2063,"y":587,"width":400,"height":330},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/EPMF课程/工程经济学/财务分析/比率/债务管理比率.md","id":"ba3da57fc317a766","x":-398,"y":-585,"width":400,"height":244},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/EPMF课程/工程经济学/财务分析/比率/应付账款周转率.md","id":"1a624a55ffa67d96","x":127,"y":-417,"width":400,"height":334},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/EPMF课程/工程经济学/财务分析/比率/杠杆比率.md","id":"5dbcd20d9fe132cf","x":127,"y":-864,"width":400,"height":371},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/EPMF课程/工程经济学/财务分析/比率/销售利润率.md","id":"565bc295c3029a28","x":127,"y":-14,"width":400,"height":463},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/EPMF课程/工程经济学/财务分析/比率/现金到期债务比率.md","id":"24904603a9e450a0","x":127,"y":556,"width":400,"height":361},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/EPMF课程/工程经济学/财务分析/比率/盈利比率.md","id":"80457a9e0412476e","x":-398,"y":364,"width":400,"height":218}
+	],
+	"edges":[
+		{"id":"446cedd4187386bf","fromNode":"80457a9e0412476e","fromSide":"right","toNode":"565bc295c3029a28","toSide":"left"},
+		{"id":"ec6b9af9e8c43366","fromNode":"80457a9e0412476e","fromSide":"right","toNode":"24904603a9e450a0","toSide":"left"},
+		{"id":"3580533a842d63e4","fromNode":"ba3da57fc317a766","fromSide":"right","toNode":"5dbcd20d9fe132cf","toSide":"left"},
+		{"id":"c41a79a6011cb47a","fromNode":"ba3da57fc317a766","fromSide":"right","toNode":"1a624a55ffa67d96","toSide":"left"},
+		{"id":"4d11c29b38edebab","fromNode":"9741684d0b1a3c16","fromSide":"right","toNode":"ba3da57fc317a766","toSide":"left"},
+		{"id":"8c883f0b34791405","fromNode":"9741684d0b1a3c16","fromSide":"right","toNode":"80457a9e0412476e","toSide":"left"},
+		{"id":"025d11136cf08003","fromNode":"9741684d0b1a3c16","fromSide":"left","toNode":"b9b1fb0ba4f09023","toSide":"right"},
+		{"id":"d9a49506c8477c23","fromNode":"9741684d0b1a3c16","fromSide":"left","toNode":"45e5a6585a8016ff","toSide":"right"},
+		{"id":"1bab56834dd7574e","fromNode":"b9b1fb0ba4f09023","fromSide":"left","toNode":"c7bfeee28fd331d6","toSide":"right"},
+		{"id":"eece27f719bff8b9","fromNode":"b9b1fb0ba4f09023","fromSide":"left","toNode":"5e156700ce040fe6","toSide":"right"},
+		{"id":"4ba4c0ccddb067d7","fromNode":"b9b1fb0ba4f09023","fromSide":"left","toNode":"8756fd160a40c427","toSide":"right"},
+		{"id":"fefc929c8b1dc48c","fromNode":"45e5a6585a8016ff","fromSide":"left","toNode":"70380008aaebf95c","toSide":"right"},
+		{"id":"364d85d63d87ff9f","fromNode":"45e5a6585a8016ff","fromSide":"left","toNode":"35c9e77edd360c05","toSide":"right"}
+	]
+}

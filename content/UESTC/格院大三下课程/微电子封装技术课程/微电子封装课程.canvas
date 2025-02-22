@@ -1,0 +1,10 @@
+{
+	"nodes":[
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/微电子封装技术课程/封装基础/封装基础.canvas","id":"13147f76afe8d529","x":222,"y":-353,"width":400,"height":400},
+		{"type":"text","text":"# 微电子封装技术","id":"6cb21e71ac3e57ad","x":-204,"y":47,"width":250,"height":127},
+		{"id":"bd1f2727145c12ef","x":222,"y":-434,"width":250,"height":60,"type":"text","text":"## 封装基础"}
+	],
+	"edges":[
+		{"id":"08a3fc199991099f","fromNode":"6cb21e71ac3e57ad","fromSide":"right","toNode":"13147f76afe8d529","toSide":"left"}
+	]
+}

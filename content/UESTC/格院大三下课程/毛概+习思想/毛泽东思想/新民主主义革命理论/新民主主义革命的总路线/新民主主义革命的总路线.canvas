@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/毛泽东思想/新民主主义革命理论/新民主主义革命的总路线/新民主主义革命的总路线的历史进程.md","id":"31d7e3ea98636dc2","x":-943,"y":-912,"width":400,"height":388,"color":"2"},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/毛泽东思想/新民主主义革命理论/新民主主义革命的总路线/新民主主义革命与旧民主主义革命的对比.md","id":"c41fe1f98c75099d","x":-943,"y":-8,"width":400,"height":400,"color":"2"},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/毛泽东思想/新民主主义革命理论/新民主主义革命的总路线/新民主主义革命和社会主义革命性质和前途的对比.md","id":"61ddfcd5da42a400","x":-943,"y":466,"width":563,"height":536,"color":"2"},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/毛泽东思想/新民主主义革命理论/新民主主义革命的总路线/新民主主义革命的总路线.md","id":"4594c198c55ea4eb","x":-943,"y":-430,"width":400,"height":305,"color":"2"},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/毛泽东思想/新民主主义革命理论/新民主主义革命的总路线/新民主主义革命的领导.md","id":"e8afbd2603b815eb","x":-278,"y":7,"width":453,"height":345,"color":"2"},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/毛泽东思想/新民主主义革命理论/新民主主义革命的总路线/新民主主义革命的对象.md","id":"8fbe1a2a8c442ba2","x":-278,"y":-1119,"width":453,"height":566,"color":"2"},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/毛泽东思想/新民主主义革命理论/新民主主义革命的总路线/新民主主义革命的动力.md","id":"80afb943bfe41452","x":-278,"y":-524,"width":453,"height":500,"color":"2"},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/毛泽东思想/新民主主义革命理论/新民主主义革命的总路线/中国无产阶级的特点和优点.md","id":"2267d0be06bc7c93","x":403,"y":-366,"width":479,"height":588,"color":"2"},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/毛泽东思想/新民主主义革命理论/新民主主义革命的总路线/无产阶级领导全权的实现.md","id":"241780a05e226aee","x":403,"y":275,"width":479,"height":400,"color":"2"}
+	],
+	"edges":[
+		{"id":"958441f3adf7d37b","fromNode":"31d7e3ea98636dc2","fromSide":"bottom","toNode":"4594c198c55ea4eb","toSide":"top"},
+		{"id":"5e99f3fcff7cfdca","fromNode":"4594c198c55ea4eb","fromSide":"right","toNode":"8fbe1a2a8c442ba2","toSide":"left"},
+		{"id":"131a88cb8a3cfa12","fromNode":"4594c198c55ea4eb","fromSide":"right","toNode":"80afb943bfe41452","toSide":"left"},
+		{"id":"bac8e999fa7bb71c","fromNode":"4594c198c55ea4eb","fromSide":"right","toNode":"e8afbd2603b815eb","toSide":"left"},
+		{"id":"424e963151cf1145","fromNode":"2267d0be06bc7c93","fromSide":"left","toNode":"e8afbd2603b815eb","toSide":"right"},
+		{"id":"5c1da36381a7e19a","fromNode":"241780a05e226aee","fromSide":"left","toNode":"e8afbd2603b815eb","toSide":"right"}
+	]
+}

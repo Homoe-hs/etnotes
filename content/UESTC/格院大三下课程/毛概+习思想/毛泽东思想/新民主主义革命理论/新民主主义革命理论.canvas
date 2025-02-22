@@ -1,0 +1,33 @@
+{
+	"nodes":[
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/毛泽东思想/新民主主义革命理论/近代中国国情.md","id":"3c4541060caf8576","x":147,"y":-637,"width":400,"height":238,"color":"3"},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/毛泽东思想/新民主主义革命理论/近代中国主要矛盾.md","id":"9480240bdf64e85a","x":704,"y":-647,"width":400,"height":258,"color":"3"},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/毛泽东思想/新民主主义革命理论/近代中国的根本任务.md","id":"e629276c8edc55c8","x":1215,"y":-641,"width":400,"height":247,"color":"3"},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/毛泽东思想/新民主主义革命理论/近代中国的革命性质.md","id":"e5e42aa946bab657","x":147,"y":-342,"width":400,"height":262,"color":"3"},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/毛泽东思想/新民主主义革命理论/近代中国革命分两步走.md","id":"f8aa3e9a103b1b1f","x":704,"y":-352,"width":420,"height":282,"color":"3"},
+		{"type":"text","text":"革命的对象决定革命的性质\n只要是反帝反封建的革命那就是资产阶级革命","id":"cc6ee9741f97449c","x":222,"y":-5,"width":250,"height":110,"color":"3"},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/毛泽东思想/新民主主义革命理论/左倾和右倾两种错误思想.md","id":"bb2cabfc595e8ef3","x":1215,"y":-345,"width":530,"height":269,"color":"3"},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/毛泽东思想/新民主主义革命理论/新民主主义革命理论的实践基础.md","id":"112bc601ccac56a9","x":147,"y":186,"width":400,"height":424,"color":"3"},
+		{"type":"text","text":"# 新民主主义革命理论","id":"fa81089eb9811199","x":-339,"y":-64,"width":232,"height":118},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/毛泽东思想/新民主主义革命理论/新民主主义革命的总纲领/新民主主义革命的总纲领.canvas","id":"4b06ccb69ae079bb","x":1876,"y":170,"width":400,"height":400},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/毛泽东思想/新民主主义革命理论/新民主主义革命的总路线/新民主主义革命的总路线.canvas","id":"886ff18153e0805e","x":1876,"y":-280,"width":400,"height":400},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/毛泽东思想/新民主主义革命理论/新民主主义革命的总道路/新民主主义革命的总道路.canvas","id":"f882d85d748c98bc","x":1876,"y":620,"width":400,"height":400},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/毛泽东思想/新民主主义革命理论/新民主主义革命的总经验/新民主主义革命的总经验.canvas","id":"acb4a9d3f47180e5","x":1876,"y":1070,"width":400,"height":400},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/毛泽东思想/新民主主义革命理论/新民主主义革命理论.md","id":"0b76511c8e47d2a9","x":741,"y":428,"width":383,"height":263,"color":"3"}
+	],
+	"edges":[
+		{"id":"704d384480dea833","fromNode":"3c4541060caf8576","fromSide":"right","toNode":"9480240bdf64e85a","toSide":"left"},
+		{"id":"0de654035a676dd0","fromNode":"9480240bdf64e85a","fromSide":"right","toNode":"e629276c8edc55c8","toSide":"left"},
+		{"id":"9df671b12493eec3","fromNode":"fa81089eb9811199","fromSide":"right","toNode":"3c4541060caf8576","toSide":"left"},
+		{"id":"1383af083de8020c","fromNode":"cc6ee9741f97449c","fromSide":"top","toNode":"e5e42aa946bab657","toSide":"bottom"},
+		{"id":"77845128d2e0c4df","fromNode":"e5e42aa946bab657","fromSide":"right","toNode":"f8aa3e9a103b1b1f","toSide":"left"},
+		{"id":"7a94fb1455003dc6","fromNode":"fa81089eb9811199","fromSide":"right","toNode":"e5e42aa946bab657","toSide":"left"},
+		{"id":"af74dbbf1af4d604","fromNode":"112bc601ccac56a9","fromSide":"right","toNode":"0b76511c8e47d2a9","toSide":"left"},
+		{"id":"a6c46d2f336882fd","fromNode":"0b76511c8e47d2a9","fromSide":"right","toNode":"886ff18153e0805e","toSide":"left","label":"新民主主义革命的总路线"},
+		{"id":"b1d78bba34133399","fromNode":"bb2cabfc595e8ef3","fromSide":"left","toNode":"f8aa3e9a103b1b1f","toSide":"right"},
+		{"id":"d88ae89a92052ebe","fromNode":"0b76511c8e47d2a9","fromSide":"right","toNode":"4b06ccb69ae079bb","toSide":"left","label":"新民主主义革命的总纲领"},
+		{"id":"0fa4cb6b5c89e08b","fromNode":"0b76511c8e47d2a9","fromSide":"right","toNode":"f882d85d748c98bc","toSide":"left","label":"新民主主义革命的总道路"},
+		{"id":"adc8b37e06c9b13e","fromNode":"0b76511c8e47d2a9","fromSide":"right","toNode":"acb4a9d3f47180e5","toSide":"left","label":"新民主主义革命的总经验"},
+		{"id":"9cf110ab9759ff86","fromNode":"fa81089eb9811199","fromSide":"right","toNode":"112bc601ccac56a9","toSide":"left"}
+	]
+}

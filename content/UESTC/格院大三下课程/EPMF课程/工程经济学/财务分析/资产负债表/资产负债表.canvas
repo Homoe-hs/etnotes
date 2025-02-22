@@ -1,0 +1,29 @@
+{
+	"nodes":[
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/EPMF课程/工程经济学/财务分析/资产负债表/资产负债表的主要构成.md","id":"5fad1299a6e8358c","x":-1091,"y":407,"width":400,"height":430},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/EPMF课程/工程经济学/财务分析/资产负债表/资产负债表.md","id":"8dff404e1cd4759c","x":-1635,"y":414,"width":400,"height":416},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/EPMF课程/工程经济学/财务分析/资产负债表/资产.md","id":"ac51c83aa8c8c8ff","x":-468,"y":-307,"width":400,"height":400},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/EPMF课程/工程经济学/财务分析/资产负债表/所有者权益.md","id":"f087dc335558dea8","x":-468,"y":1060,"width":400,"height":445},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/EPMF课程/工程经济学/财务分析/资产负债表/负债.md","id":"427139c11826b867","x":-468,"y":448,"width":400,"height":364},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/EPMF课程/工程经济学/财务分析/资产负债表/固定资产.md","id":"992582329492be55","x":101,"y":-469,"width":400,"height":321},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/EPMF课程/工程经济学/财务分析/资产负债表/流动资产.md","id":"c2b78b80dcb7f77a","x":101,"y":-95,"width":400,"height":348},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/EPMF课程/工程经济学/财务分析/资产负债表/长期负债.md","id":"d2bce25f365440ec","x":101,"y":288,"width":400,"height":287},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/EPMF课程/工程经济学/财务分析/资产负债表/短期负债.md","id":"f157d52c041b5242","x":101,"y":657,"width":400,"height":309},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/EPMF课程/工程经济学/财务分析/资产负债表/所有者权益的作用.md","id":"4695e08413f183bb","x":101,"y":1044,"width":400,"height":476},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/EPMF课程/工程经济学/财务分析/资产负债表/资产负债表的作用.md","id":"e5471846e2bbe6ee","x":-2210,"y":49,"width":400,"height":573},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/EPMF课程/工程经济学/财务分析/资产负债表/资产负债表的局限.md","id":"d84c0b6edc080d27","x":-2210,"y":726,"width":400,"height":462}
+	],
+	"edges":[
+		{"id":"da9b539a875c2ab3","fromNode":"ac51c83aa8c8c8ff","fromSide":"right","toNode":"992582329492be55","toSide":"left"},
+		{"id":"65fccd4beca9cac3","fromNode":"ac51c83aa8c8c8ff","fromSide":"right","toNode":"c2b78b80dcb7f77a","toSide":"left"},
+		{"id":"574fffd5f0735ab1","fromNode":"5fad1299a6e8358c","fromSide":"right","toNode":"ac51c83aa8c8c8ff","toSide":"left"},
+		{"id":"b5c1c70cab1237ed","fromNode":"427139c11826b867","fromSide":"right","toNode":"d2bce25f365440ec","toSide":"left"},
+		{"id":"c93acb8ef93f17b0","fromNode":"5fad1299a6e8358c","fromSide":"right","toNode":"427139c11826b867","toSide":"left"},
+		{"id":"63b2d48cfca6dfb6","fromNode":"8dff404e1cd4759c","fromSide":"right","toNode":"5fad1299a6e8358c","toSide":"left"},
+		{"id":"4cef2f4bbfb64652","fromNode":"8dff404e1cd4759c","fromSide":"left","toNode":"e5471846e2bbe6ee","toSide":"right"},
+		{"id":"a6664858ae91eff6","fromNode":"8dff404e1cd4759c","fromSide":"left","toNode":"d84c0b6edc080d27","toSide":"right"},
+		{"id":"f7189c0d5ccbf698","fromNode":"427139c11826b867","fromSide":"right","toNode":"f157d52c041b5242","toSide":"left"},
+		{"id":"d3f45e30ac20f8c4","fromNode":"f087dc335558dea8","fromSide":"right","toNode":"4695e08413f183bb","toSide":"left"},
+		{"id":"52ac4354b5723f48","fromNode":"5fad1299a6e8358c","fromSide":"right","toNode":"f087dc335558dea8","toSide":"left"}
+	]
+}

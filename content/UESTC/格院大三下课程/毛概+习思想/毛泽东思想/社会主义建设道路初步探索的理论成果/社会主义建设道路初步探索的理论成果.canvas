@@ -1,0 +1,36 @@
+{
+	"nodes":[
+		{"type":"group","id":"9e07121c6b8a8734","x":362,"y":-1007,"width":559,"height":1536,"label":"社会主义建设道路初步探索的三大理论成果"},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/毛泽东思想/社会主义建设道路初步探索的理论成果/调动一切积极因素为社会主义事业服务的思想.md","id":"8fe1da96ca79a9ce","x":382,"y":-987,"width":519,"height":630,"color":"2"},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/毛泽东思想/社会主义建设道路初步探索的理论成果/社会主义建设道路初步探索的意义.md","id":"cf89f2c910e2b516","x":642,"y":765,"width":496,"height":400,"color":"2"},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/毛泽东思想/社会主义建设道路初步探索的理论成果/社会主义建设道路初步探索的经验教训.md","id":"afe430974b39e347","x":141,"y":765,"width":482,"height":516,"color":"2"},
+		{"type":"text","text":"# 社会主义建设道路初步探索的理论成果","id":"ca43aed32641a0da","x":-277,"y":-156,"width":418,"height":110,"color":"2"},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/毛泽东思想/社会主义建设道路初步探索的理论成果/改革开放前后两个历史时期及其关系.md","id":"e67f0704fcf68b12","x":141,"y":1366,"width":482,"height":563,"color":"2"},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/毛泽东思想/社会主义建设道路初步探索的理论成果/正确认识和处理社会主义社会矛盾的思想.md","id":"d240b9b9288724cb","x":382,"y":-301,"width":519,"height":400,"color":"2"},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/毛泽东思想/社会主义建设道路初步探索的理论成果/走中国工业化道路的思想.md","id":"ce52b7b4b053c73f","x":382,"y":137,"width":519,"height":347,"color":"2"},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/毛泽东思想/社会主义建设道路初步探索的理论成果/关于社会主义社会存在两种不同性质矛盾的理论.md","id":"c02d88886f2f78d6","x":1355,"y":-649,"width":460,"height":374,"color":"2"},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/毛泽东思想/社会主义建设道路初步探索的理论成果/关于正确处理两类不同性质社会矛盾的基本方法.md","id":"8f7081e45195273e","x":1355,"y":-226,"width":460,"height":412,"color":"2"},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/毛泽东思想/社会主义建设道路初步探索的理论成果/关于正确处理人民内部矛盾的方针.md","id":"ed873f8cb9d1e789","x":1355,"y":235,"width":460,"height":561,"color":"2"},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/毛泽东思想/社会主义建设道路初步探索的理论成果/关于正确处理人民内部矛盾的问题是社会主义国家政治生活的主题.md","id":"b543687ad81dbfd1","x":1355,"y":831,"width":460,"height":272,"color":"2"},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/毛泽东思想/社会主义建设道路初步探索的理论成果/我国社会的主要矛盾和根本任务.md","id":"ba815c85077a30e6","x":1355,"y":-996,"width":460,"height":281,"color":"2"},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/毛泽东思想/社会主义建设道路初步探索的理论成果/社会主义社会的基本矛盾.md","id":"2f8465654a97ddec","x":1355,"y":-1510,"width":460,"height":458,"color":"2"},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/毛泽东思想/社会主义建设道路初步探索的理论成果/敌我矛盾.md","id":"254b59cc503fad6e","x":1973,"y":-705,"width":400,"height":244,"color":"2"},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/毛泽东思想/社会主义建设道路初步探索的理论成果/人民内部矛盾.md","id":"98f9358f4a74d44d","x":1973,"y":-427,"width":400,"height":195,"color":"2"}
+	],
+	"edges":[
+		{"id":"147509349378bb06","fromNode":"ca43aed32641a0da","fromSide":"right","toNode":"8fe1da96ca79a9ce","toSide":"left"},
+		{"id":"c699405aced46ca2","fromNode":"ca43aed32641a0da","fromSide":"right","toNode":"d240b9b9288724cb","toSide":"left"},
+		{"id":"585b01d3704b48c8","fromNode":"d240b9b9288724cb","fromSide":"right","toNode":"2f8465654a97ddec","toSide":"left"},
+		{"id":"be361a106c4fb347","fromNode":"d240b9b9288724cb","fromSide":"right","toNode":"ba815c85077a30e6","toSide":"left"},
+		{"id":"5279b192bf5e1af5","fromNode":"d240b9b9288724cb","fromSide":"right","toNode":"c02d88886f2f78d6","toSide":"left"},
+		{"id":"5ef8e74e36621273","fromNode":"c02d88886f2f78d6","fromSide":"right","toNode":"254b59cc503fad6e","toSide":"left"},
+		{"id":"3e25b7800c5eb006","fromNode":"c02d88886f2f78d6","fromSide":"right","toNode":"98f9358f4a74d44d","toSide":"left"},
+		{"id":"cc9ce1f6e93c2d6c","fromNode":"d240b9b9288724cb","fromSide":"right","toNode":"8f7081e45195273e","toSide":"left"},
+		{"id":"f38817f3a65d6a49","fromNode":"d240b9b9288724cb","fromSide":"right","toNode":"ed873f8cb9d1e789","toSide":"left"},
+		{"id":"e99f7dce700c19d9","fromNode":"d240b9b9288724cb","fromSide":"right","toNode":"b543687ad81dbfd1","toSide":"left"},
+		{"id":"3897a085f8a9ed40","fromNode":"ca43aed32641a0da","fromSide":"right","toNode":"ce52b7b4b053c73f","toSide":"left"},
+		{"id":"b6e07ce3a1334aa3","fromNode":"9e07121c6b8a8734","fromSide":"bottom","toNode":"cf89f2c910e2b516","toSide":"top"},
+		{"id":"93c683d1c27b555f","fromNode":"9e07121c6b8a8734","fromSide":"bottom","toNode":"afe430974b39e347","toSide":"top"},
+		{"id":"39dfce0f3f552929","fromNode":"afe430974b39e347","fromSide":"bottom","toNode":"e67f0704fcf68b12","toSide":"top"}
+	]
+}

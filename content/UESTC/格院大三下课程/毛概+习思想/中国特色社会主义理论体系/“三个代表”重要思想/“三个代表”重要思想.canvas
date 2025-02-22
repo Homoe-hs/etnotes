@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/中国特色社会主义理论体系/“三个代表”重要思想/“三个代表”重要思想的核心观点.md","id":"2ff129ecd6e34dfe","x":28,"y":-496,"width":421,"height":260,"color":"3"},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/中国特色社会主义理论体系/“三个代表”重要思想/发展是党执政兴国的第一要务.md","id":"d347038cb4adf165","x":676,"y":-632,"width":533,"height":455,"color":"2"},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/中国特色社会主义理论体系/“三个代表”重要思想/全面建设小康社会.md","id":"113dc6a79ed365a2","x":676,"y":-101,"width":533,"height":255,"color":"3"},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/中国特色社会主义理论体系/“三个代表”重要思想/建设社会主义政治文明.md","id":"1dd91513a9db9676","x":676,"y":207,"width":533,"height":738,"color":"2"},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/中国特色社会主义理论体系/“三个代表”重要思想/建设社会主义政治文明的举措.md","id":"36738fbdf30b2cbd","x":1391,"y":376,"width":520,"height":400,"color":"2"},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/中国特色社会主义理论体系/“三个代表”重要思想/“三个代表”重要思想的主要内容.md","id":"a20d2e5d1102d30e","x":28,"y":376,"width":421,"height":400,"color":"3"},
+		{"type":"text","text":"# “三个代表”","id":"50206906c0081bef","x":-402,"y":7,"width":276,"height":60}
+	],
+	"edges":[
+		{"id":"e572f6e277e47178","fromNode":"50206906c0081bef","fromSide":"right","toNode":"2ff129ecd6e34dfe","toSide":"left"},
+		{"id":"beff01cc0d27695d","fromNode":"50206906c0081bef","fromSide":"right","toNode":"a20d2e5d1102d30e","toSide":"left"},
+		{"id":"8b53fc84230e46e1","fromNode":"a20d2e5d1102d30e","fromSide":"right","toNode":"d347038cb4adf165","toSide":"left"},
+		{"id":"8ce98e642597f24b","fromNode":"a20d2e5d1102d30e","fromSide":"right","toNode":"113dc6a79ed365a2","toSide":"left"},
+		{"id":"ebbc999cc3206845","fromNode":"a20d2e5d1102d30e","fromSide":"right","toNode":"1dd91513a9db9676","toSide":"left"},
+		{"id":"ab443d6f93d5d28d","fromNode":"1dd91513a9db9676","fromSide":"right","toNode":"36738fbdf30b2cbd","toSide":"left"}
+	]
+}

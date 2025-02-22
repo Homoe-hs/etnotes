@@ -1,0 +1,10 @@
+{
+	"nodes":[
+		{"id":"7fe6851ba86f5a52","x":-40,"y":-203,"width":400,"height":1459,"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/电路和调制/变换器/DC-DC 变换器/Buck-Boost 连续模式换流分析.md"},
+		{"id":"36d9b0fde4912f08","x":-544,"y":143,"width":319,"height":109,"type":"text","text":"# Buck-Boost 连续模式换流与特性分析"},
+		{"id":"b2d9eaa9cc74f492","x":549,"y":358,"width":400,"height":338,"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/电路和调制/变换器/DC-DC 变换器/Buck-Boost 电路稳态增益.md"}
+	],
+	"edges":[
+		{"id":"cfa8071a3b0bdda2","fromNode":"7fe6851ba86f5a52","fromSide":"right","toNode":"b2d9eaa9cc74f492","toSide":"left"}
+	]
+}

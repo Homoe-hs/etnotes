@@ -1,0 +1,24 @@
+{
+	"nodes":[
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/毛泽东思想/毛泽东思想及其历史地位/毛泽东思想形成发展的历史条件.md","id":"6fe07548900b1c67","x":258,"y":-728,"width":549,"height":618,"color":"3"},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/毛泽东思想/毛泽东思想及其历史地位/毛泽东思想形成发展的过程.md","id":"5219aa7d996df489","x":948,"y":-789,"width":765,"height":744,"color":"3"},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/毛泽东思想/毛泽东思想及其历史地位/毛泽东思想主要内容.md","id":"ee94670212e01e07","x":258,"y":-45,"width":400,"height":392,"color":"2"},
+		{"type":"text","text":"# 毛泽东思想及其历史地位","id":"cf22c1c5e8830530","x":-229,"y":151,"width":302,"height":116},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/毛泽东思想/毛泽东思想及其历史地位/毛泽东思想活的灵魂.md","id":"5d663dcc1b100ee8","x":258,"y":394,"width":400,"height":768,"color":"2"},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/毛泽东思想/毛泽东思想及其历史地位/毛泽东思想的重要意义.md","id":"d1113b304457f772","x":249,"y":1249,"width":418,"height":274,"color":"3"},
+		{"type":"text","text":"## 科学评价毛泽东和毛泽东思想\n\n在《历史决议》中，对毛泽东和毛泽东思想作出了科学的、实事求是的评价。**毛泽东的功绩是第一位的，错误是第二位的。他的错误是一个伟大的革命家、一个伟大的马克思主义者所犯的错误。**","id":"2e8faf89397d7918","x":753,"y":1253,"width":360,"height":270},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三上课程/马克思主义基本原理课程/马原理/哲学/唯物史观/群众路线.md","id":"0f62db6a1e4f3190","x":807,"y":636,"width":400,"height":284,"color":"2"},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/毛泽东思想/毛泽东思想及其历史地位/群众路线的本质.md","id":"d120df60ad0e9e79","x":1325,"y":661,"width":400,"height":234,"color":"2"},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/毛泽东思想/毛泽东思想及其历史地位/党的建设理论（毛泽东）.md","id":"7bee107cb96bbd28","x":793,"y":8,"width":455,"height":463,"color":"2"}
+	],
+	"edges":[
+		{"id":"25b168bcb03d7d89","fromNode":"cf22c1c5e8830530","fromSide":"right","toNode":"6fe07548900b1c67","toSide":"left"},
+		{"id":"b80c68a1d0a0ac7f","fromNode":"cf22c1c5e8830530","fromSide":"right","toNode":"5d663dcc1b100ee8","toSide":"left"},
+		{"id":"0f55e86a5eb4f9df","fromNode":"6fe07548900b1c67","fromSide":"right","toNode":"5219aa7d996df489","toSide":"left"},
+		{"id":"cc743105474dbe9d","fromNode":"5d663dcc1b100ee8","fromSide":"bottom","toNode":"d1113b304457f772","toSide":"top"},
+		{"id":"7632676c10ebff07","fromNode":"cf22c1c5e8830530","fromSide":"right","toNode":"ee94670212e01e07","toSide":"left"},
+		{"id":"9840dc5f6940604c","fromNode":"ee94670212e01e07","fromSide":"right","toNode":"7bee107cb96bbd28","toSide":"left"},
+		{"id":"98c8cabd8ced39a5","fromNode":"5d663dcc1b100ee8","fromSide":"right","toNode":"0f62db6a1e4f3190","toSide":"left"},
+		{"id":"c9cb017eea7d0476","fromNode":"0f62db6a1e4f3190","fromSide":"right","toNode":"d120df60ad0e9e79","toSide":"left"}
+	]
+}

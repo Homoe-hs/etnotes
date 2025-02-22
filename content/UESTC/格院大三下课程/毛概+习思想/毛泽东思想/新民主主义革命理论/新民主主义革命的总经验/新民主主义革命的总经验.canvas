@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/毛泽东思想/新民主主义革命理论/新民主主义革命的总经验/武装斗争.md","id":"93c48ac80d176ccb","x":580,"y":-204,"width":400,"height":271,"color":"2"},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/毛泽东思想/新民主主义革命理论/新民主主义革命的总经验/党的建设.md","id":"f66d51266dcf332c","x":580,"y":117,"width":508,"height":489,"color":"2"},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/毛泽东思想/新民主主义革命理论/新民主主义革命的总经验/新民主主义革命的总经验.md","id":"bfde4957c8c7aff3","x":-137,"y":-166,"width":454,"height":196,"color":"2"},
+		{"id":"5415e929ba143e87","x":577,"y":-462,"width":400,"height":206,"color":"2","type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/毛泽东思想/新民主主义革命理论/新民主主义革命的总经验/统一战线.md"},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/毛泽东思想/新民主主义革命理论/新民主主义革命的总经验/建立统一战线的必要性.md","id":"010ad3942862106f","x":337,"y":-1021,"width":420,"height":387,"color":"2"},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/毛泽东思想/新民主主义革命理论/新民主主义革命的总经验/建立统一战线的可能性.md","id":"587589ce6febcfb9","x":800,"y":-901,"width":420,"height":267,"color":"2"},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/毛泽东思想/新民主主义革命理论/新民主主义革命的总经验/统一战线中的两个联盟.md","id":"407dc6ff14ca993a","x":1320,"y":-767,"width":419,"height":348,"color":"2"},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/毛泽东思想/新民主主义革命理论/新民主主义革命的总经验/统一战线的经验.md","id":"d7c73303026940aa","x":1320,"y":-368,"width":419,"height":526,"color":"2"}
+	],
+	"edges":[
+		{"id":"8ea9a80647cc4c7a","fromNode":"bfde4957c8c7aff3","fromSide":"right","toNode":"93c48ac80d176ccb","toSide":"left"},
+		{"id":"48ce27be7bbb5db3","fromNode":"bfde4957c8c7aff3","fromSide":"right","toNode":"f66d51266dcf332c","toSide":"left"},
+		{"id":"143537228d643740","fromNode":"bfde4957c8c7aff3","fromSide":"right","toNode":"5415e929ba143e87","toSide":"left"},
+		{"id":"17d8e99b03384c8c","fromNode":"010ad3942862106f","fromSide":"bottom","toNode":"5415e929ba143e87","toSide":"top"},
+		{"id":"f7c929cff4f0668b","fromNode":"587589ce6febcfb9","fromSide":"bottom","toNode":"5415e929ba143e87","toSide":"top"},
+		{"id":"dfe76c7b27edae62","fromNode":"5415e929ba143e87","fromSide":"right","toNode":"407dc6ff14ca993a","toSide":"left"},
+		{"id":"a838945417593e2c","fromNode":"5415e929ba143e87","fromSide":"right","toNode":"d7c73303026940aa","toSide":"left"}
+	]
+}

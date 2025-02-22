@@ -1,0 +1,30 @@
+{
+	"nodes":[
+		{"type":"file","file":"200 文献笔记/线下课程/UESTC/格院大二课程/模电基础/ch2 半导体器件基础/PN 结.canvas","id":"b9798706eec90a5e","x":1305,"y":-443,"width":400,"height":400},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/器件/功率二极管/功率二极管.canvas","id":"054dbd1758cdc2a4","x":669,"y":-443,"width":400,"height":400},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/器件/功率 BJT/功率 BJT.canvas","id":"9155695badc60ec7","x":669,"y":101,"width":400,"height":400},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三上课程/电子器件课程/半导体器件/BJT/BJT.canvas","id":"de954ac6bdd8c2d5","x":1305,"y":101,"width":400,"height":400},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/器件/功率半导体器件的工作模式.md","id":"926c7c48071cff48","x":669,"y":-948,"width":400,"height":393},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/器件/晶闸管/晶闸管.canvas","id":"d3e6837503bc8593","x":669,"y":689,"width":400,"height":400},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/器件/晶闸管/双向晶闸管.canvas","id":"2fe65f26f6a7d4dd","x":1396,"y":689,"width":400,"height":400},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/器件/晶闸管/门级可关断晶闸管.canvas","id":"1bc3f39744627eb0","x":1396,"y":1145,"width":400,"height":400},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/器件/电力电子器件.canvas","id":"736c1daaf9c510cd","x":-175,"y":572,"width":400,"height":235},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/器件/功率 MOSFET/功率 MOSFET.canvas","id":"17792e6e60fcd312","x":669,"y":1226,"width":400,"height":400},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/器件/IGBT/IGBT.canvas","id":"c0768cac92049884","x":669,"y":1721,"width":400,"height":400},
+		{"type":"file","file":"400 笔记归档/附件/Pasted image 20230613212755.png","id":"a4fd70146713784f","x":1941,"y":4,"width":842,"height":626},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/器件/开关（功率半导体）.md","id":"8faaa6c66bbc25ac","x":1252,"y":-1021,"width":400,"height":538}
+	],
+	"edges":[
+		{"id":"d0921809de895aa0","fromNode":"736c1daaf9c510cd","fromSide":"right","toNode":"926c7c48071cff48","toSide":"left"},
+		{"id":"b7dd84832408bf8e","fromNode":"926c7c48071cff48","fromSide":"right","toNode":"8faaa6c66bbc25ac","toSide":"left"},
+		{"id":"c320a26972249b5c","fromNode":"736c1daaf9c510cd","fromSide":"right","toNode":"054dbd1758cdc2a4","toSide":"left","label":"功率二极管"},
+		{"id":"51b8af1cbf3ffe46","fromNode":"b9798706eec90a5e","fromSide":"left","toNode":"054dbd1758cdc2a4","toSide":"right","label":"PN 结"},
+		{"id":"b2169f3644476ba2","fromNode":"736c1daaf9c510cd","fromSide":"right","toNode":"9155695badc60ec7","toSide":"left","label":"功率BJT"},
+		{"id":"b56acdc201ed4948","fromNode":"de954ac6bdd8c2d5","fromSide":"left","toNode":"9155695badc60ec7","toSide":"right","label":"BJT"},
+		{"id":"4b0291dacaf308bc","fromNode":"736c1daaf9c510cd","fromSide":"right","toNode":"d3e6837503bc8593","toSide":"left","label":"晶闸管"},
+		{"id":"f5ee09a18e36e869","fromNode":"d3e6837503bc8593","fromSide":"right","toNode":"2fe65f26f6a7d4dd","toSide":"left","label":"双向"},
+		{"id":"8c681ec75a323e24","fromNode":"d3e6837503bc8593","fromSide":"right","toNode":"1bc3f39744627eb0","toSide":"left","label":"可关断"},
+		{"id":"fe7f74ccd4140028","fromNode":"736c1daaf9c510cd","fromSide":"right","toNode":"17792e6e60fcd312","toSide":"left","label":"功率 MOSFET"},
+		{"id":"3e04c8e1c6d8b10b","fromNode":"736c1daaf9c510cd","fromSide":"right","toNode":"c0768cac92049884","toSide":"left","label":"IGBT"}
+	]
+}

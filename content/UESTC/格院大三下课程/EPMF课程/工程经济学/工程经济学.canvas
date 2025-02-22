@@ -1,0 +1,14 @@
+{
+	"nodes":[
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/EPMF课程/工程经济学/财务分析/财务报表.canvas","id":"c97b620f9dfcfbff","x":-115,"y":-147,"width":400,"height":400},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/EPMF课程/工程经济学/财务分析/替代方案评估.md","id":"5f1042c0f1d127a4","x":-115,"y":-593,"width":400,"height":320},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/EPMF课程/工程经济学/财务分析/替代方案评估的重要性.md","id":"0094c1f1f4e03ca8","x":526,"y":-767,"width":400,"height":334},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/EPMF课程/工程经济学/财务分析/替代方案评估的变量.md","id":"4ecfcdf06edf0af6","x":526,"y":-360,"width":400,"height":426},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/EPMF课程/工程经济学/自制或外购决策/自制或外购决策.canvas","id":"13c388151629833f","x":-115,"y":354,"width":400,"height":400},
+		{"id":"645073731e7a25c3","x":-678,"y":36,"width":240,"height":78,"type":"text","text":"# 工程经济学"}
+	],
+	"edges":[
+		{"id":"fceddbf53b4bea0c","fromNode":"5f1042c0f1d127a4","fromSide":"right","toNode":"0094c1f1f4e03ca8","toSide":"left"},
+		{"id":"5103c36c8d73eb32","fromNode":"5f1042c0f1d127a4","fromSide":"right","toNode":"4ecfcdf06edf0af6","toSide":"left"}
+	]
+}

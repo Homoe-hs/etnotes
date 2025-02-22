@@ -1,0 +1,14 @@
+{
+	"nodes":[
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/EPMF课程/工程经济学/工程经济学.canvas","id":"5babfe7c2cfd26bd","x":-43,"y":-302,"width":400,"height":400},
+		{"type":"text","text":"# 工程管理与财务","id":"8092a43989e9594a","x":-1125,"y":260,"width":250,"height":72},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/EPMF课程/项目管理/工程项目管理.canvas","id":"34ed1ef4649dd45c","x":-627,"y":296,"width":400,"height":400},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/EPMF课程/EMPF 往年考试内容整理.md","id":"69ea44c0ade85a92","x":-627,"y":-945,"width":400,"height":400},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/EPMF课程/工程经济学.md","id":"1183fab6e52eb84c","x":-627,"y":-229,"width":400,"height":255}
+	],
+	"edges":[
+		{"id":"07d3a5d49c099c7d","fromNode":"8092a43989e9594a","fromSide":"right","toNode":"1183fab6e52eb84c","toSide":"left"},
+		{"id":"9e9efeb702f8b9ef","fromNode":"1183fab6e52eb84c","fromSide":"right","toNode":"5babfe7c2cfd26bd","toSide":"left"},
+		{"id":"1bf5844942862f30","fromNode":"8092a43989e9594a","fromSide":"right","toNode":"34ed1ef4649dd45c","toSide":"left"}
+	]
+}

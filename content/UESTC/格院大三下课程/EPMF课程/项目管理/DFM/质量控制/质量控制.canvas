@@ -1,0 +1,27 @@
+{
+	"nodes":[
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/EPMF课程/项目管理/DFM/质量控制/质量控制.md","id":"b11f60d72fff2641","x":-392,"y":-34,"width":400,"height":311},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/EPMF课程/项目管理/DFM/质量控制/品管七大手法.md","id":"8f2957aea57842c7","x":178,"y":-331,"width":400,"height":437},
+		{"id":"1514862a68d6b997","x":1105,"y":-934,"width":400,"height":542,"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/EPMF课程/项目管理/DFM/质量控制/检查表.md"},
+		{"id":"f8084d842d234591","x":1105,"y":-331,"width":400,"height":784,"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/EPMF课程/项目管理/DFM/质量控制/流程图.md"},
+		{"id":"3975faaf696f9dd8","x":1105,"y":528,"width":400,"height":296,"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/EPMF课程/项目管理/DFM/质量控制/直方图.md"},
+		{"id":"b47665ea4e0dfac0","x":1105,"y":900,"width":400,"height":728,"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/EPMF课程/项目管理/DFM/质量控制/散布图.md"},
+		{"id":"aba568c4a1accb1a","x":1105,"y":1694,"width":400,"height":652,"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/EPMF课程/项目管理/DFM/质量控制/管制图.md"},
+		{"type":"file","file":"200 文献笔记/文章/5W2H分析法.md","id":"ee59847d61c0b12b","x":1675,"y":-2809,"width":400,"height":400},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/EPMF课程/项目管理/DFM/质量控制/因果图绘图方法.md","id":"cbf28ee556e82fe7","x":1672,"y":-2283,"width":400,"height":546},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/EPMF课程/项目管理/DFM/质量控制/因果图.md","id":"3c2fd4e55bd81289","x":1105,"y":-2274,"width":400,"height":528},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/EPMF课程/项目管理/DFM/质量控制/帕累托图.md","id":"575bfe486e81cec8","x":1105,"y":-1709,"width":400,"height":722}
+	],
+	"edges":[
+		{"id":"cf6fe7bbacacd3b9","fromNode":"b11f60d72fff2641","fromSide":"right","toNode":"8f2957aea57842c7","toSide":"left"},
+		{"id":"8def603a9e128a71","fromNode":"8f2957aea57842c7","fromSide":"right","toNode":"3c2fd4e55bd81289","toSide":"left"},
+		{"id":"3501a3c954051d03","fromNode":"3c2fd4e55bd81289","fromSide":"right","toNode":"cbf28ee556e82fe7","toSide":"left"},
+		{"id":"b73514c45acffcd2","fromNode":"cbf28ee556e82fe7","fromSide":"top","toNode":"ee59847d61c0b12b","toSide":"bottom"},
+		{"id":"d7c014a13a65c5cf","fromNode":"8f2957aea57842c7","fromSide":"right","toNode":"575bfe486e81cec8","toSide":"left"},
+		{"id":"26d61cabdb121ff1","fromNode":"8f2957aea57842c7","fromSide":"right","toNode":"1514862a68d6b997","toSide":"left"},
+		{"id":"e4c8cd5d3e7bca38","fromNode":"8f2957aea57842c7","fromSide":"right","toNode":"f8084d842d234591","toSide":"left"},
+		{"id":"a69e983b9c96fac0","fromNode":"8f2957aea57842c7","fromSide":"right","toNode":"3975faaf696f9dd8","toSide":"left"},
+		{"id":"1bea76c79f4eb87d","fromNode":"8f2957aea57842c7","fromSide":"right","toNode":"b47665ea4e0dfac0","toSide":"left"},
+		{"id":"b913f9b63c9b487c","fromNode":"8f2957aea57842c7","fromSide":"right","toNode":"aba568c4a1accb1a","toSide":"left"}
+	]
+}

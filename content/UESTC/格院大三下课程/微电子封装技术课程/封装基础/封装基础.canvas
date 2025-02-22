@@ -1,0 +1,20 @@
+{
+	"nodes":[
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/微电子封装技术课程/封装基础/封装技术.md","id":"dfccbca46d850ff4","x":-187,"y":-262,"width":400,"height":147},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/微电子封装技术课程/封装基础/集成电路、封装和系统的整合.md","id":"0fc8d3ab75460a0a","x":-187,"y":280,"width":400,"height":284},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/微电子封装技术课程/封装基础/封装的功能.md","id":"2f8ff51c99d53b07","x":374,"y":-209,"width":400,"height":276},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/微电子封装技术课程/封装基础/封装的分类.md","id":"0b08e2feabd6588c","x":374,"y":289,"width":400,"height":117},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/微电子封装技术课程/封装基础/电子封装技术.md","id":"c45eae8deff513aa","x":984,"y":-68,"width":400,"height":177},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/微电子封装技术课程/封装基础/机械封装技术.md","id":"aa7f05f70a6324a0","x":984,"y":280,"width":400,"height":147},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/微电子封装技术课程/封装基础/材料封装技术.md","id":"6b527042b597b287","x":984,"y":583,"width":400,"height":177},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/微电子封装技术课程/封装基础/封装的重要性.md","id":"04b00f46b59e0871","x":-746,"y":-68,"width":400,"height":272}
+	],
+	"edges":[
+		{"id":"c77e612cfe7946d3","fromNode":"dfccbca46d850ff4","fromSide":"right","toNode":"0b08e2feabd6588c","toSide":"left"},
+		{"id":"02294adc7eff60fc","fromNode":"0b08e2feabd6588c","fromSide":"right","toNode":"c45eae8deff513aa","toSide":"left"},
+		{"id":"d21b60eb0a426f6c","fromNode":"0b08e2feabd6588c","fromSide":"right","toNode":"aa7f05f70a6324a0","toSide":"left"},
+		{"id":"253c74da99998deb","fromNode":"0b08e2feabd6588c","fromSide":"right","toNode":"6b527042b597b287","toSide":"left"},
+		{"id":"da17e3288c745a70","fromNode":"dfccbca46d850ff4","fromSide":"left","toNode":"04b00f46b59e0871","toSide":"right"},
+		{"id":"d2e9ee5857d260b4","fromNode":"dfccbca46d850ff4","fromSide":"right","toNode":"2f8ff51c99d53b07","toSide":"left"}
+	]
+}

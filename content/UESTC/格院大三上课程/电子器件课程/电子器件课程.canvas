@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"type":"text","text":"# 电子器件课程","id":"e52896aa6895d2d7","x":-387,"y":-55,"width":219,"height":118},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三上课程/电子器件课程/电子器件UESTC3002.md","id":"a5a13decf865d1bc","x":-909,"y":-894,"width":400,"height":1797},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三上课程/电子器件课程/一般材料的概念/一般材料的概念.canvas","id":"0dce31015b2a20b1","x":135,"y":-949,"width":400,"height":400},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三上课程/电子器件课程/高级半导体器件/高级半导体器件.canvas","id":"4daf46353279bbec","x":135,"y":532,"width":400,"height":400},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三上课程/电子器件课程/半导体基础/半导体基础.canvas","id":"be5727cc0c757899","x":135,"y":-455,"width":400,"height":400},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三上课程/电子器件课程/半导体器件/pn 结/半导体器件.canvas","id":"44004e28cdbb4eaa","x":135,"y":39,"width":400,"height":400}
+	],
+	"edges":[
+		{"id":"9132523f2c765053","fromNode":"e52896aa6895d2d7","fromSide":"right","toNode":"0dce31015b2a20b1","toSide":"left"},
+		{"id":"38dfb0ec6b87416b","fromNode":"e52896aa6895d2d7","fromSide":"right","toNode":"be5727cc0c757899","toSide":"left"},
+		{"id":"dc738d06fb2b9c66","fromNode":"e52896aa6895d2d7","fromSide":"right","toNode":"44004e28cdbb4eaa","toSide":"left"},
+		{"id":"6858fc7cd7a78ebd","fromNode":"e52896aa6895d2d7","fromSide":"right","toNode":"4daf46353279bbec","toSide":"left"},
+		{"id":"6f6fd3706a642c13","fromNode":"e52896aa6895d2d7","fromSide":"left","toNode":"a5a13decf865d1bc","toSide":"right"}
+	]
+}

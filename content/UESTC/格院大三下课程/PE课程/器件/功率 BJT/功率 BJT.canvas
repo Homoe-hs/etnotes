@@ -1,0 +1,37 @@
+{
+	"nodes":[
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/器件/功率 BJT/功率 BJT 的输出特性.md","id":"38801458182975ff","x":1676,"y":-235,"width":332,"height":313},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/器件/功率 BJT/安全工作区.md","id":"212cd995e40bdaa1","x":1643,"y":150,"width":400,"height":229},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/器件/功率 BJT/正偏安全工作区.md","id":"8d8b00d9f6b1a058","x":1401,"y":495,"width":441,"height":657},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/器件/功率 BJT/反偏安全工作区.md","id":"5c0392f40e066878","x":1880,"y":495,"width":400,"height":691},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/器件/功率 BJT/功率BJT的静态特性.md","id":"6c7dd5f8a39cc075","x":691,"y":-178,"width":400,"height":200},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/器件/功率 BJT/功率 BJT.md","id":"673dc1a4e8b3aa21","x":-136,"y":400,"width":400,"height":231},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/器件/功率 BJT/功率 BJT 的动态特性的测试电路.md","id":"8f142e2c0f9cee79","x":691,"y":752,"width":400,"height":400},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/器件/功率 BJT/功率 BJT 的导通动态特性.md","id":"29d94167ff3add77","x":1401,"y":1186,"width":400,"height":400},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/器件/功率 BJT/功率 BJT 的关断动态特性.md","id":"74ef2d53da59d6be","x":1401,"y":1612,"width":400,"height":400},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/器件/功率 BJT/功率 BJT 在放大区的输出特性.md","id":"99fde4cb497c9bb1","x":2434,"y":-395,"width":441,"height":610},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/器件/功率 BJT/功率 BJT 在饱和区的输出特性.md","id":"4a8737d8534d2529","x":2434,"y":264,"width":441,"height":633},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/器件/功率 BJT/功率 BJT 在截止区的输出特性.md","id":"247a5e7cd0c43b13","x":2434,"y":-877,"width":441,"height":450},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/器件/功率 BJT/功率 BJT 的符号.md","id":"4e320a5f430d50c4","x":691,"y":-681,"width":400,"height":391},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/器件/功率 BJT/功率 BJT 的结构.md","id":"ebfe2787a3d36539","x":691,"y":-1176,"width":400,"height":422},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/器件/功率 BJT/功率 BJT 的输入特性.md","id":"85cb7dedc1e8b9dc","x":1676,"y":-1176,"width":416,"height":833},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/器件/功率 BJT/功率 BJT 的动态特性.md","id":"8883a710468d22d3","x":691,"y":1483,"width":400,"height":207}
+	],
+	"edges":[
+		{"id":"435024baa6e0d2dc","fromNode":"673dc1a4e8b3aa21","fromSide":"right","toNode":"ebfe2787a3d36539","toSide":"left"},
+		{"id":"b0da68f110137c55","fromNode":"673dc1a4e8b3aa21","fromSide":"right","toNode":"4e320a5f430d50c4","toSide":"left"},
+		{"id":"3d28e511f52b589b","fromNode":"673dc1a4e8b3aa21","fromSide":"right","toNode":"6c7dd5f8a39cc075","toSide":"left"},
+		{"id":"471b0bef70d02782","fromNode":"6c7dd5f8a39cc075","fromSide":"right","toNode":"85cb7dedc1e8b9dc","toSide":"left"},
+		{"id":"44076e2eb4a0693a","fromNode":"6c7dd5f8a39cc075","fromSide":"right","toNode":"38801458182975ff","toSide":"left"},
+		{"id":"26a0f031c42dd919","fromNode":"38801458182975ff","fromSide":"right","toNode":"247a5e7cd0c43b13","toSide":"left"},
+		{"id":"4496a11a9197ef5f","fromNode":"38801458182975ff","fromSide":"right","toNode":"99fde4cb497c9bb1","toSide":"left"},
+		{"id":"2a164abfdd89a861","fromNode":"38801458182975ff","fromSide":"right","toNode":"4a8737d8534d2529","toSide":"left"},
+		{"id":"e9acc3726250ebb3","fromNode":"38801458182975ff","fromSide":"bottom","toNode":"212cd995e40bdaa1","toSide":"top"},
+		{"id":"177ad1ebf843bdb5","fromNode":"212cd995e40bdaa1","fromSide":"bottom","toNode":"5c0392f40e066878","toSide":"top"},
+		{"id":"9affcf835944d554","fromNode":"212cd995e40bdaa1","fromSide":"bottom","toNode":"8d8b00d9f6b1a058","toSide":"top"},
+		{"id":"86bddff1f766b5a6","fromNode":"673dc1a4e8b3aa21","fromSide":"right","toNode":"8883a710468d22d3","toSide":"left"},
+		{"id":"92431c54f1f0896d","fromNode":"8f142e2c0f9cee79","fromSide":"bottom","toNode":"8883a710468d22d3","toSide":"top"},
+		{"id":"91cd5e0158005444","fromNode":"8883a710468d22d3","fromSide":"right","toNode":"29d94167ff3add77","toSide":"left"},
+		{"id":"4995ff83dffff5a5","fromNode":"8883a710468d22d3","fromSide":"right","toNode":"74ef2d53da59d6be","toSide":"left"}
+	]
+}

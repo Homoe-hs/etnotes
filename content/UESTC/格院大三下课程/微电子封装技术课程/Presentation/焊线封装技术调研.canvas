@@ -1,0 +1,27 @@
+{
+	"nodes":[
+		{"id":"37062cdf25ec86da","x":-372,"y":-289,"width":140,"height":70,"type":"text","text":"# 输入"},
+		{"id":"ffc113735f3b1cdc","x":-427,"y":-134,"width":250,"height":60,"type":"text","text":"芯片和引线框架（基板）"},
+		{"id":"d4f3b6e0447b8dba","x":1779,"y":-279,"width":250,"height":60,"type":"text","text":"# 输出"},
+		{"id":"9748c46cf99d7d76","x":1779,"y":-128,"width":250,"height":60,"type":"text","text":"实现芯片和引线框架的键合"},
+		{"id":"3903caca3a4a92da","x":18,"y":408,"width":196,"height":113,"type":"text","text":"## 传统焊线封装技术"},
+		{"id":"94eb3be322bf635f","x":-9,"y":-68,"width":250,"height":60,"type":"text","text":"## 先进封装技术"},
+		{"id":"eb3c9248e4e8418d","x":339,"y":215,"width":286,"height":100,"type":"text","text":"### 倒装焊（Flip Chip Bonding）"},
+		{"id":"df3d2226e7a3daa5","x":339,"y":398,"width":286,"height":153,"type":"text","text":"### 载带自动焊（TAB 一 Tape Automated Bonding）"},
+		{"id":"e72fb3217b066c94","x":339,"y":618,"width":286,"height":116,"type":"text","text":"### 引线键合（ Wire Bonding）"},
+		{"id":"87d62fe707fcb99a","x":754,"y":618,"width":250,"height":116,"type":"text","text":"#### 引线材料\n\n主要有金、铝、铜、银"},
+		{"type":"text","text":"#### 引线键合的方式\n\n- 热压焊 (Thermocompression Bonding，T/C)\n- 超声焊 (Ultrasonic Bonding)\n- 超声波热压焊接方式 (Thermosonic & Ultrasonic Bonding，U/S&T/S)","id":"fad67f0ba062ba1b","x":754,"y":815,"width":352,"height":230}
+	],
+	"edges":[
+		{"id":"4e97bfa2dae972d5","fromNode":"37062cdf25ec86da","fromSide":"right","toNode":"d4f3b6e0447b8dba","toSide":"left"},
+		{"id":"7e61572f443caddb","fromNode":"37062cdf25ec86da","fromSide":"bottom","toNode":"ffc113735f3b1cdc","toSide":"top"},
+		{"id":"12e212c157925bd2","fromNode":"d4f3b6e0447b8dba","fromSide":"bottom","toNode":"9748c46cf99d7d76","toSide":"top"},
+		{"id":"d1d4c62f1001a701","fromNode":"3903caca3a4a92da","fromSide":"right","toNode":"eb3c9248e4e8418d","toSide":"left"},
+		{"id":"84c15b5383d1c807","fromNode":"3903caca3a4a92da","fromSide":"right","toNode":"df3d2226e7a3daa5","toSide":"left"},
+		{"id":"8d6155976f416129","fromNode":"3903caca3a4a92da","fromSide":"right","toNode":"e72fb3217b066c94","toSide":"left"},
+		{"id":"5d174c4a82a798ea","fromNode":"e72fb3217b066c94","fromSide":"right","toNode":"87d62fe707fcb99a","toSide":"left"},
+		{"id":"061808660cc12811","fromNode":"e72fb3217b066c94","fromSide":"right","toNode":"fad67f0ba062ba1b","toSide":"left"},
+		{"id":"351c23a3fae53701","fromNode":"ffc113735f3b1cdc","fromSide":"right","toNode":"3903caca3a4a92da","toSide":"left"},
+		{"id":"2bf01322f3efe0a7","fromNode":"ffc113735f3b1cdc","fromSide":"right","toNode":"94eb3be322bf635f","toSide":"left"}
+	]
+}

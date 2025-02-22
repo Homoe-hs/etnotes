@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/器件/晶闸管/门级可关断晶闸管.md","id":"1e301bc1ffdf81f9","x":-68,"y":-140,"width":400,"height":338},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/器件/晶闸管/门级可关断晶闸管的结构.md","id":"77283285fb0ffb29","x":668,"y":-1256,"width":400,"height":513},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/器件/晶闸管/门级可关断晶闸管的符号.md","id":"96aa66588b37605b","x":668,"y":-675,"width":400,"height":443},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/器件/晶闸管/门级可关断晶闸管的动态特性.md","id":"2d3da8156bd576df","x":668,"y":663,"width":400,"height":400},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/器件/晶闸管/晶闸管动态特性测试电路.md","id":"29d7b66f747b526a","x":668,"y":1207,"width":400,"height":662},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/器件/晶闸管/门级可关断晶闸管的动态关断.md","id":"054043792569a077","x":1343,"y":453,"width":400,"height":820},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/PE课程/器件/晶闸管/门级可关断晶闸管的静态输出特性.md","id":"17710dc082b32613","x":668,"y":-140,"width":400,"height":745}
+	],
+	"edges":[
+		{"id":"45e75f476abe0ec1","fromNode":"1e301bc1ffdf81f9","fromSide":"right","toNode":"77283285fb0ffb29","toSide":"left"},
+		{"id":"d865ad0669c44df2","fromNode":"1e301bc1ffdf81f9","fromSide":"right","toNode":"96aa66588b37605b","toSide":"left"},
+		{"id":"a67240a5c392f45b","fromNode":"1e301bc1ffdf81f9","fromSide":"right","toNode":"17710dc082b32613","toSide":"left"},
+		{"id":"69b011450a261598","fromNode":"1e301bc1ffdf81f9","fromSide":"right","toNode":"2d3da8156bd576df","toSide":"left"},
+		{"id":"4653d9f1bfb262ad","fromNode":"29d7b66f747b526a","fromSide":"top","toNode":"2d3da8156bd576df","toSide":"bottom"},
+		{"id":"322268b199c8cb3e","fromNode":"2d3da8156bd576df","fromSide":"right","toNode":"054043792569a077","toSide":"left"}
+	]
+}

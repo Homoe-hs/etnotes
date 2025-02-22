@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/毛泽东思想/新民主主义革命理论/新民主主义革命的总道路/新民主主义革命的总道路.md","id":"9873aa8ebafd4049","x":-189,"y":443,"width":400,"height":258,"color":"3"},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/毛泽东思想/新民主主义革命理论/新民主主义革命的总道路/新民主主义革命的总道路的形成.md","id":"f284741d8c9dc206","x":-267,"y":-132,"width":557,"height":480,"color":"3"},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/毛泽东思想/新民主主义革命理论/新民主主义革命的总道路/新民主主义革命的总道路的必要性.md","id":"1e717a0b91873f2f","x":-515,"y":841,"width":495,"height":400,"color":"3"},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/毛泽东思想/新民主主义革命理论/新民主主义革命的总道路/新民主主义革命的总道路的可能性.md","id":"7403529c3f165e76","x":42,"y":841,"width":495,"height":598,"color":"3"},
+		{"type":"file","file":"200 文献笔记/线下课程/格院大三下课程/毛概+习思想/毛泽东思想/新民主主义革命理论/新民主主义革命的总道路/新民主主义革命总道路的根本.md","id":"0ed993d38a444e52","x":382,"y":314,"width":456,"height":516,"color":"2"}
+	],
+	"edges":[
+		{"id":"98f575ab4ccc2968","fromNode":"f284741d8c9dc206","fromSide":"bottom","toNode":"9873aa8ebafd4049","toSide":"top"},
+		{"id":"22669582fb17acdc","fromNode":"1e717a0b91873f2f","fromSide":"top","toNode":"9873aa8ebafd4049","toSide":"bottom"},
+		{"id":"5946d7a27f8becf0","fromNode":"7403529c3f165e76","fromSide":"top","toNode":"9873aa8ebafd4049","toSide":"bottom"},
+		{"id":"99ecdc7a026695a5","fromNode":"0ed993d38a444e52","fromSide":"left","toNode":"9873aa8ebafd4049","toSide":"right"}
+	]
+}
