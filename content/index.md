@@ -5,9 +5,9 @@ tags:
 
 # 你不能只有在赢的时候才自信🤗
 
-```
-🎆新年快乐🎆
-```
+
+<center>⚪⚪⚪元宵快乐⚪⚪⚪</center>
+
 
 这个网站是通过 [Obsidian](https://obsidian.md/) 构建笔记之后，通过 [Quartz](https://github.com/jackyzha0/quartz) 进行发布，之前是托管在我的 [DXP4800 Plus](https://www.ugnas.com/) 上，现在托管在了Github Pages（Github 地址 [Homoe-hs/etnotes](https://github.com/Homoe-hs/etnotes)）。
 
@@ -27,7 +27,7 @@ tags:
 
 [[《EE6102 网络安全与区块链》笔记]]
 
-### Hikari 的笔记使用指北
+### Hikari 小姐的食用指南
 
 ![[readme]]
 
