@@ -112,7 +112,8 @@
 ## Materials for Barriers / Liners
 
 - **Transition Metals**: ($\mathrm{Pd}$, $\mathrm{Cr}$, $\mathrm{Ti}$, $\mathrm{Co}$, $\mathrm{Ni}$, $\mathrm{Pt}$) generally poor barriers, due to high reactivities to $\mathrm{Cu}$ $<450\degree C$, Exception: $\mathrm{Ta}$, $\mathrm{Mo}$, $\mathrm{W}$ etc. More thermally stable, but fail due to $\mathrm{Cu}$ diffusion through grain boundaries (polycrystalline films)
-  过渡金属（$\mathrm{Pd}$、$\mathrm{Cr}$、$\mathrm{Ti}$、$\mathrm{Co}$、$\mathrm{Ni}$、$\mathrm{Pt}$）通常是较差的屏障，因为它们在低于 $450\degree \mathrm{C}$ 时与铜（$\mathrm{Cu}$）的反应性较高。例外情况：$\mathrm{Ta}$、$\mathrm{Mo}$、$\mathrm{W}$ 等，这些金属具有更高的热稳定性，但由于铜通过晶界（多晶薄膜）扩散，它们最终也会失效
+  过渡金属（$\mathrm{Pd}$、$\mathrm{Cr}$、$\mathrm{Ti}$、$\mathrm{Co}$、$\mathrm{Ni}$、$\mathrm{Pt}$）通常是较差的隔离
+- ，因为它们在低于 $450\degree \mathrm{C}$ 时与铜（$\mathrm{Cu}$）的反应性较高。例外情况：$\mathrm{Ta}$、$\mathrm{Mo}$、$\mathrm{W}$ 等，这些金属具有更高的热稳定性，但由于铜通过晶界（多晶薄膜）扩散，它们最终也会失效
 - **Transition Metal Alloys**: e.g., $\mathrm{TiW}$. Can be deposited as amorphous films (stable up to $500\degree C$)
   过渡金属合金：例如 $\mathrm{TiW}$。可以作为非晶薄膜沉积（稳定至 $500\degree \mathrm{C}$）
 - **Transition Metal - Compounds**: Extensively used, e.g., $\mathrm{TiN}$, $\mathrm{TaN}$, $\mathrm{WN}$
@@ -135,9 +136,9 @@
 	- Conventional metal deposition technique: Widely used for $\mathrm{Al}$ interconnects
 	  传统的金属沉积技术：广泛用于铝（$\mathrm{Al}$）互连。
 	- Produce $\mathrm{Cu}$ films with **strong (111)**
-	  生产具有**强（111）**晶向的铜（$\mathrm{Cu}$）薄膜。
+	  生产具有**强（111）** 晶向的铜（$\mathrm{Cu}$）薄膜。
 	- Poor step coverage: not tolerable for filling high-aspect ratio features: result **Pinching**
-	  >在物理气相沉积（PVD）过程中，**pinching**（夹点）现象是指当沉积薄膜在填充高宽比特征（如深沟槽或高纵横比孔洞）时，由于覆盖不均匀而导致的薄膜断裂或狭窄。这个现象发生在薄膜在特征表面上沉积时，特别是在侧壁和底部的覆盖效果不佳，使得薄膜在这些区域形成空隙或狭窄部分
+	  >在物理气相沉积（PVD）过程中，**pinching**（夹点）现象是指当沉积薄膜在填充高宽比特征（如深沟槽或高纵横比孔洞）时，由于覆盖不均匀而导致的薄膜断裂或狭窄现象。这个现象发生在薄膜在特征表面上沉积时，特别是在侧壁和底部的覆盖效果不佳，使得薄膜在这些区域形成空隙或狭窄部分
 
 ![[Pasted image 20250223004649.png#pic_75center|]]
 
