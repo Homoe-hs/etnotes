@@ -27,7 +27,8 @@
 
 ![[Pasted image 20250211155002.png#pic_center|Two-Rail Checker]]
 - 输出永远是互补的，如果不是互补的说明有错误。
-- 输入的x与y要求是互补的，会产生一个互补的输出。
+- 输入的x与y要求是互补的，会产生一个互补的输出
+- 
 
 ### Multi-Level Tree Checker
 
@@ -55,7 +56,14 @@ $P_{\text{ODD}}=\overline{b_{n-1}\oplus b_{n-2}\oplus \cdots \oplus b_{1} \oplus
 
 ## 2-D Parity Checks
 
-#TODO 
+- Form data in 2-D code-words
+- Generate both row and column parity bits (Transmitter)
+- Execute both row and column parity checks (Receiver)
+- Position of a single-bit error can be identified
+	- Single-bit error can be corrected
+- Position of multi-bit errors cannot be identified
+	- Position of multi-bit errors cannot be identified
+- Assembling and disassembling of data block is required
 
 # Distance
 
@@ -80,6 +88,10 @@ The smallest number of bit(s) in which any two words differ in a code
 - For $k\text{-bit}$ error detection, $\text{minimum distance}\geq k+1$. Without error correction capability
 - For $k\text{-bit}$ error correction, $\text{minimum distance} \geq 2k+1$
 
+---
+
+- 对于这个课件（例如Hamming Code）：Correction能力是$\frac{d-1}{2}$位，Detection能力是$\frac{d}{2}$位
+- 如果放弃纠错能力，使用别的编码能够将Detection能力提升到$d-1$位
 # Hamming Code
 
 - For an error correction, desirable to detect and locate error(s)
@@ -165,7 +177,7 @@ The smallest number of bit(s) in which any two words differ in a code
 
 ### Double-bit Error
 
-根据Hamming Distance的原理，如果要检测出2bit的错误，需要的Hamming距离为4。需要额外添加一个校验位$P_4$对$M_4M_3M_2M_1$进行校验。
+根据Hamming Distance的原理，如果要检测出2bit的错误，需要的Hamming距离为4。需要额外添加一个校验位$P_4$对Hamming编码后的数据进行校验。
 - 如果$P_4$校验失败：
 	- 如果$B_2B_1B_0\neq 0$，说明有1bit错误，错误在$B_2B_1B_0$指示的位置上，总共有2bit错误
 	- 如果$B_2B_1B_0=0$，说明$P_4$有错误
@@ -207,7 +219,7 @@ $$A+B=A-B=A\oplus B$$
 
 校验过程为$$\displaylines{\frac{T^\prime(x)}{G(x)}=\frac{B(x)}{G(x)}+\frac{R(x)}{G(x)}+\frac{E(x)}{G(x)} \\ =Q(x)+\frac{R(x)}{G(x)}+\frac{R(x)}{G(x)}+\frac{E(x)}{G(x)} \\ =Q(x)+\frac{E(x)}{G(x)}}$$所以如果$E(x)\neq 0$，即在校验过程中就会发现余数不为0，校验失败。
 
-## Generation of CRC Code
+## 编码CRC
 
 **第1步**：对于一个次数为r的Generation Polynomial$$G(x)=g_rx^r+g_{r-1}x^{r-1}+\cdots+g_1x+g_0$$
 需要在原始的数据$B(x)$后加上$r$个0形成$B^\prime(x)$，这一步也就是$$B^\prime(x)=B(x)x^r$$
@@ -254,4 +266,4 @@ $x^2+1$与$0101b$一样，所以这一切工作良好
 ## CRC Encoding: Using (n-k) Stage Shift Register
 
 至此，已经有用环形寄存器生成余数的例子。对于一个完整的CRC输出，需要有$k$ bit的数据位和$n-k$ bit的校验位，所以完整的结构很容易想到：![[Pasted image 20250212023739.png]]
-在需要输出数据位的时候，开关被打到实线位置，此时$k$ bit的数据位被慢慢移位输出，同时也进入移位寄存器进行除法操作。$k$ bit后，开关被打到虚线位置，剩余的$n-k$ bit从移位寄存器中输出，即输出余数部分。（我觉得PPT上的例子错了，应该是1011110）
+在需要输出数据位的时候，开关被打到实线位置，此时$k$ bit的数据位被慢慢移位输出，同时也进入移位寄存器进行除法操作。$k$ bit后，开关被打到虚线位置，剩余的$n-k$ bit从移位寄存器中输出，即输出余数部分。
