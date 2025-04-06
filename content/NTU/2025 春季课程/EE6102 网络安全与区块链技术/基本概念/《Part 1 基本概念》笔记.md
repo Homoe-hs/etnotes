@@ -6,7 +6,9 @@ number headings: auto, first-level 1, max 5, contents ^toc, 1.1.
 ---
 # 1. 现状
 
-工业 4.0（industry 4.0）和数字转型（digital transformation）带来了更多数字资产，使得更容易受到网络攻击
+什么是网络安全？ 它是应用于数字信息以确保其安全的技术、标准、策略和管理实践的集合。
+
+工业 4.0（industry 4.0）和数字转型（digital transformation）带来了更多数字资产，使得更容易受到网络攻击。
 
 # 2. 防护
 
@@ -22,7 +24,7 @@ number headings: auto, first-level 1, max 5, contents ^toc, 1.1.
 
 总是存在网络安全攻击，并且随着工业 4.0 和数字化转型的发展，被攻击的概率也会随之增长。能做的就是通过实施更多的保护来
 
-# 4. 网络安全的目标
+# 4. 网络安全的目标 🌟
 
 > [! tip] Linux 的权限类型
 > 这里其实可以和 linux 的权限系统对应起来。linux 的权限类型分为读（r）、写（w）、执行（x）三类。机密性相当于禁止读，完整性相当于禁止写，可用性则是赋予读写权限。
@@ -35,3 +37,15 @@ number headings: auto, first-level 1, max 5, contents ^toc, 1.1.
 > [!note] 一些术语
 > - [[验证]]（Authentication）：保证沟通实体即为其声称的实体（非伪装）
 > - [[抗抵赖]]（Non-repudiation）：防止一个实体否认其已经创建的消息（对内容负责）
+
+# 5. 补充知识
+
+计划-保护-响应周期的三个阶段：
+- 计划 Planning
+- 保护 Protection。耗时最多
+- 响应 Response
+
+一些关键词
+- 伪装 Masquerading
+- 窃听 Eavesdropping
+- 欺骗 Spoofing
