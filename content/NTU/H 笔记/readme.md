@@ -1,12 +1,16 @@
 # Sem2 开学，不嘻嘻
 
-# 如何使用？
+# 如何使用？使用阅读视图以获得最佳体验
 
 使用笔记软件obsidian查看
 
 如果不会git的话，download ZIP后把解压的文件夹设置为vault就可以了。
 
-会git的：还要我教？直接git clone到你的vault
+会git的：
+
+```bash
+git clone https://github.com/QwQuQ/NTU_ET.git --depth 1
+```
 
 # 包含的课程？
 
@@ -27,3 +31,5 @@
 6102 网络安全和区块链
 
 6128 RF
+
+乱七八糟的小东西：信号与系统，电磁场与电磁波什么的
