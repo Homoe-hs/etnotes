@@ -36,9 +36,9 @@ $$
 
 # 2. 先进光刻
 
-## 2.1. RET
+## 2.1. OET
 
-![[《Part 1 光刻基础概念》笔记#4.2. 光学增强技术 Optical Resolution Enhancement Technique]]
+![[《Part 1 光刻基础概念》笔记#4.2. 光学增强技术 Optical Resolution Enhancement Technique ✨]]
 
 ## 2.2. IML
 
@@ -46,7 +46,7 @@ $$
 
 ## 2.3. 电子束光刻
 
-![[《Part 1 光刻基础概念》笔记#4.6.1. 电子束]]
+![[《Part 1 光刻基础概念》笔记#4.6.1. 电子束✨]]
 
 ## 2.4. SCALPEL
 
