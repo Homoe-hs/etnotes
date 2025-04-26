@@ -13,7 +13,11 @@ tags:
 
 # Part 3 故障模型
 
+[[《Part 3 故障模型》笔记]]
+
 # Part 4 DFT
+
+[[《Part 4 DFT》笔记]]
 
 # Part 5 内存管理
 
@@ -24,6 +28,8 @@ tags:
 [[《Part 6 并行处理》笔记]]
 
 # Part 7 同步
+
+[[《Part 7 同步》笔记]]
 
 # 其他
 

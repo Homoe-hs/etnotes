@@ -116,7 +116,6 @@ number headings: auto, first-level 1, max 5, contents ^toc, 1.1.
 - 对于 k 位的错误检测，最小距离 $\geq k+1$
 - 对于 k 位的错误纠正，最小距离 $\geq 2k+1$
 
-
 | 最小距离       | 纠错                               | 检错                             | 检测    |
 | ---------- | -------------------------------- | ------------------------------ | ----- |
 | $\text{d}$ | $\lfloor \dfrac{d-1}{2} \rfloor$ | $\lfloor \dfrac{d}{2} \rfloor$ | $d-1$ |
