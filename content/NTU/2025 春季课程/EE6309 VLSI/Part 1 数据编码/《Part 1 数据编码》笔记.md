@@ -169,7 +169,7 @@ $$
 - 编码效率 = $\dfrac{m}{m+k}$
 - 编码冗余= $\dfrac{k}{m+k}$
 
-# 6. 循环冗余编码 Cyclic Redundancy Check ✨
+# 6. 循环冗余编码 Cyclic Redundancy Check
 
 ## 6.1. 基础知识
 
@@ -196,7 +196,7 @@ $$
 $$
 这说明对于信息 $\text{B(x)}$ 通过加上特定的 $\text{R(x)}$，是能够被 $\text{G(x)}$ 除尽，如果出现错误就会出现余数。
 
-## 6.3. CRC 码生成
+## 6.3. CRC 码生成✨
 
 $\text{G(x)}$ 是一个给定的多项式，最高项有 $\text{r}$ 次。对于需要传输的信息多项式 $\text{B(x)}$，先左移 $\text{r}$ 位（乘 $x^{r}$），然后除以 $\text{G(x)}$ 得到余项 $\text{R(x)}$，将余项和信息多项式相接即可得到最终的 CRC 码（$\text{G(x)R(x)}$）。
 
