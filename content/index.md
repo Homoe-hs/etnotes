@@ -95,3 +95,5 @@ tags:
 | Hikari          | 总体内容整理                     | [QwQuQ/NTU_ET: NTU Electronics课程学习笔记](https://github.com/QwQuQ/NTU_ET) |
 | William，半圆，hehe | [[EE6306 240916 quiz 1 A]] |                                                                        |
 | Nightingale     | [[二端口网络参数转换]]              |                                                                        |
+| 可爱的小天           | 提供素材                       |                                                                        |
+| 阿祥              | 修订错误                       |                                                                        |

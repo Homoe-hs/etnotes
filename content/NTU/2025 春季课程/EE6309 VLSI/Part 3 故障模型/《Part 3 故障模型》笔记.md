@@ -62,12 +62,12 @@ SSA（single Stuck-At），单线固定故障，指给定线路具有恒定值 (
 
 在数字电路测试中，**故障点（Fault Site）** 是指电路中可能发生逻辑故障的物理或逻辑位置。对于一个布尔门级电路（Boolean gate-level circuit），故障点的总数通常由以下三部分组成：
 $$
-\text{Number of Fault Sites}=\#\text{PI}+\#\text{gates}+\# \text{fanout branches}
+\text{Number~of~Fault~Sites}=\#\text{PI}+\#\text{gates}+\# \text{fanout~branches}
 $$
 其中：
 - $\#\text{PI}$ ：电路的原始输入（Primary Inputs）数量。。
 - $\#\text{gates}$：电路中的逻辑门（Gates）数量。    
-- $\# \text{fanout branches}$：电路中所有扇出分支（Fanout Branches）的总数。
+- $\# \text{fanout~branches}$：电路中所有扇出分支（Fanout Branches）的总数。
 
 ![[SSA 故障点数量.png]]
 

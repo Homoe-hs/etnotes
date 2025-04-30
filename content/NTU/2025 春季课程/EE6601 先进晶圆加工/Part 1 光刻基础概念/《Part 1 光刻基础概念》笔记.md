@@ -206,7 +206,7 @@ CA 光刻胶的实现实际上主要是靠敏化剂中的**光酸生成剂（pho
 
 ## 3.4. CMTF✨
 
-前面说了 MTF，针对的是光学系统。这里提出一个新概念叫关键光刻胶调制转移函数（critical resisit modulation transfer function）。CMTF 衡量光刻胶对光强分布的响应能力。
+前面说了 MTF，针对的是光学系统。这里提出一个新概念叫关键光刻胶调制转移函数（critical resisit modulation transfer function）。CMTF 衡量**光刻胶对光强分布的响应能力**。
 ![[CMTF 定义式]]
 CMTF 越低越好，相当于少量的光就能在光刻胶上实现很高的对比度。
 
