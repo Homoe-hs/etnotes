@@ -90,9 +90,9 @@ $$
 晶格图是一种简化反射和波形计算的工具。图显示了边界和反射系数。时间轴垂直显示，计算每个连续反射波的电压幅度，任何点的总电压是所有**已通过的波的总和**。
 
 要计算晶格图，总共有以下几个大步骤：
-1. 静态分析电路，即传输线两边的 $V_{source}$ 和 $V_{load}$；
+1. 静态分析电路，即传输线两边的 TX 和 RX 的 $V_{\text{initial}}$；
 2. 计算传输线两边的反射系数 $\Gamma_{source}$ 和 $\Gamma_{load}$；
-3. 计算施加在传输线上的初始电压 $V_{initial}$。
+3. 计算施加在传输线上的初始电压 $V_{\text{launch}}$。
 
 下面进行分析。
 
@@ -100,16 +100,16 @@ $$
 
 首先进行静态分析。此时电压波稳定，传输线不分压。有 
 $$
-\text{静态：}V_{source}=V_{load} = V_{1}\times \dfrac{R_{l}}{R_{s}+R_{l}}
+\text{静态：}V_{\text{initial}} = V_{1}\times \dfrac{R_{l}}{R_{s}+R_{l}}
 $$
 随后进行动态分析，此时传输线分压，初始电压波只到了传输线，
 $$
-V_{initial} = (V_{2}-V_{1})\times \dfrac{Z_{0}}{R_{s}+Z_{0}}
+V_{\text{launch}} = (V_{2}-V_{1})\times \dfrac{Z_{0}}{R_{s}+Z_{0}}
 $$
 $$
 \begin{align}
-\text{在 t0 时刻的动态：} & V_{\text{source}} = V_{\text{source}_{\text{静态}}}+V_{\text{initial} } \\
- & V_{\text{load}} = V_{\text{load}_{\text{静态}}}
+\text{在 t0 时刻的动态：} & V_{\text{source}} = V_{\text{initial} } +V_{\text{launch}}\\
+ & V_{\text{load}} = V_{\text{initial}}
 \end{align}
 $$
 随后分别计算源端和负载端的反射系数进行计算即可。
