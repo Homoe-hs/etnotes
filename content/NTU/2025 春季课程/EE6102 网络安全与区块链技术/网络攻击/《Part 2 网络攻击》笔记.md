@@ -45,9 +45,7 @@ rootkit 是一组程序，它允许某人能够控制系统，并隐藏计算机
 
 捕鲸网络钓鱼攻击又是鱼叉式钓鱼攻击的“高阶形态”，专指针对企业高管、政府高官、董事会成员、CEO等高价值目标（即“鲸鱼”）的定向网络钓鱼攻击。其核心在于利用目标的高权限身份和社会影响力，窃取敏感商业机密、操控资金流转或植入高级恶意软件，最终对企业、机构甚至国家安全造成毁灭性后果。
 
-### 1.2.4. 更多...
 
-包括谷歌搜索诈骗、短信钓鱼诈骗（Smishing Scams）、QR 码诈骗、电话钓鱼诈骗（Vishing Scams）
 
 ## 1.3. 密码攻击（Password Attacks）
 
@@ -60,6 +58,11 @@ $$
 \text{时间}= \dfrac{\text{Character Choice}^{\text{password length}}}{\text{Password cracker rate}\times \text{bot number}}
 $$
 
+> [!example]
+> 例如每一位密码有 6 种选择，总长度为 18 位。用 1 million 台计算机进行破解，每秒尝试 3000 种组合。破解需要的时间为，
+> $$
+> t = \dfrac{6^{18}}{3000\times 10^{6}} = 3.3853\times 10^{4} \pu{ s }
+> $$
 ## 1.4. 中间人攻击（Man-in-the-middle attack）
 
 中间人攻击就是攻击者在通信的两个实体之间扮演中间人，拦截并篡改通信内容。攻击者的目的是窃取敏感信息、伪造身份或阻止合法的通信。
@@ -83,20 +86,29 @@ DDoS 攻击主要有三个类别：
 流量攻击主要有 ICMP 洪水和 UDP 洪水两种攻击方式。
 
 ICMP 洪水就是向目标服务器发送大量的ICMP回显请求（Ping）数据包来阻塞目标的带宽。如果使用真实 IP 进行攻击，可能会导致 IP 暴露，因为地址会被用作 ICMP 回波请求数据包中的源地址。因此有两个缺点：容易被确定攻击源；当目标服务器尝试回应包的时候，可能导致攻击者自身被堵塞。所以常用虚假地址（spoofed address）或者[[僵尸网络]]（botnet）。
+#### 1.6.1.1. DoS 攻击所需要的数据包数量计算✨
 
-包数量计算✨
 $$
 \text{number of packets} = \dfrac{\text{speed of link}}{\text{packet size(Byte)}\times 8}
 $$
+可见，数据包越大，所需要的包的数量越少；链路速度越高，所需要的包数量越大。
+
 > [! tips]
 > 一些换算：
 > $$
-> \begin{align} \\
+> \begin{align} 
 >  1 \pu{ Byte }  &   = 8 \pu{ bits }   \\
->  1\pu{ MB/s }   &  = 1024 \pu{ kB/s } =  8192,000 \pu{ bits/s }   \\
 >  1 \pu{ Mbps } &    = 1,000,000 \pu{ bits/s }  
 > \end{align}
 > $$
+
+
+> [! example]
+> 假设包大小为 5000 Byte，带宽为 100 Mbps。
+> $$
+> \text{num} = \dfrac{100\times 10^{6}}{5000\times 8}=2.5 \times 10^{3} \pu{ \text{packets} }
+> $$
+
 
 ### 1.6.2. 协议攻击
 
